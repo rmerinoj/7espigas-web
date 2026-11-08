@@ -19,7 +19,6 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 - **Colección:** «Economía para todos» (aprobado por José Ignacio). Falta la frase que la acompaña.
 - **Boletín:** contenido abierto a propósito: algún análisis cada quince días aproximadamente, capítulos, píldoras y novedades. El texto debe transmitir que es algo vivo frente al libro. Falta el nombre o gancho.
 - **Enlaces:** cada ficha de libro de la portada lleva a la página del libro; el autor enlaza a su página desde las fichas de sus libros.
-- **Autor en la portada** (8 nov): ni bloque de autor ni nombre en las tarjetas de la portada. El bloque «El autor» del boceto B se quitó con el enfoque personalista. José Ignacio figura en la página de cada libro (nombre y enlace a «Sobre el autor») y en la página «El autor» del menú.
 - **Infografía del orden de lectura** en la sección de libros, sin dar a entender que haya que seguirlo.
 
 - **Cabecera de la portada:** sin repetir las cubiertas, que ya aparecen más abajo; en su lugar, un elemento de la colección (el aro) que remita a ellas.
@@ -61,7 +60,7 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 
 - **Técnica:** web estática generada con `build.py` a partir de `data/libros.json` y `docs/textos-web.md`; se publica sola con GitHub Actions al subir cambios a `main`.
 - **Fuentes servidas desde la propia web**, no desde Google Fonts, para no enviar datos de los visitantes a terceros.
-- **Solo tapa blanda** en Amazon por ahora; tiendas activas en la web: España y Estados Unidos (revisar en el lanzamiento).
+- **Solo tapa blanda** en Amazon por ahora; tiendas activas en la web: España y Estados Unidos (revisar en el lanzamiento). Ampliado el 8 nov (noche) a todas las de tapa blanda; ver abajo.
 - **Foto del autor:** más adelante; la página de autor funciona sin ella.
 - **No se publica en 7espigas.com** hasta tener los textos legales y el formulario de Kit conectado.
 
@@ -74,6 +73,17 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 - **Boletín conectado a Kit (8 nov):** formulario «Web 7espigas.com» (n.º 10161891), con confirmación por correo; dominio 7espigas.com autenticado en Kit; remitente «7 Espigas» <hola@7espigas.com>. Al confirmar, Kit redirige de momento a su página por defecto; cambiar a 7espigas.com/gracias/ al publicar.
 
 - **Publicación (8 nov):** GitHub Pages con origen «GitHub Actions» y dominio 7espigas.com. DNS en DonDominio: eliminado el ANAME de la raíz (alojamiento de DonDominio); cuatro registros A a GitHub (185.199.108.153, .109.153, .110.153, .111.153); `www` como CNAME a `rmerinoj.github.io`; TXT `_github-pages-challenge-rmerinoj` para verificar el dominio. Los registros del correo y de Kit no se tocan.
+
+## 8 de noviembre de 2026 (noche): ajustes tras revisar la vista previa
+
+- **Autor en la portada:** bloque discreto (solo filete, sin fondo de color) después de «Cómo nace 7 Espigas» y antes del boletín, con dos líneas y enlace a su página; la foto, cuando la haya. No va el nombre en las tarjetas de la portada. Hoy hay una colección y un autor, y quien quiera ubicarse necesita saber quién la escribe; si llegan más autores, el bloque pasará a ser «Autores». Sustituye a lo anotado antes esa misma noche (ni bloque ni nombre).
+- **Página de cada libro:** el nombre del autor, sin más, enlaza a su página (se quita «· Sobre el autor»).
+- **Enlaces sin subrayado:** se distinguen por color (dorado oscuro en el texto) y peso; el subrayado aparece solo al pasar el ratón.
+- **Cabecera fija** en ordenador (más de 980 px); en tableta y móvil, no. Logotipo de la cabecera a 52 px de alto (antes 42): había quedado pequeño frente al resto.
+- **Encabezado de «Los libros»:** título y entradilla en una columna (antes, a los lados y alineados por abajo, lo que dejaba el título bajo frente a un texto largo).
+- **Amazon:** en la portada, solo el botón (sin «También en»). En la página de cada libro, desplegable «Comprar en otros países» con todas las tiendas en las que KDP vende tapa blanda (Alemania, Australia, Bélgica, Canadá, España, Estados Unidos, Francia, Irlanda, Italia, Japón, Países Bajos, Polonia, Reino Unido y Suecia), menos la del visitante. México no admite tapa blanda de KDP. Antes del lanzamiento, comprobar que los enlaces funcionan.
+- **Descripciones de los libros:** propuesta a partir de las contracubiertas, en `docs/textos-web.md`, pendiente de revisión. En Matar al mensajero se usa «fijar alquileres máximos» en lugar de «topar» (corrección pendiente también en el libro).
+- **Migas de pan:** solo en las páginas que cuelgan de otra (hoy, las de los libros); las de primer nivel están en el menú.
 
 ## Bocetos
 

@@ -10,7 +10,11 @@
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--crema);color:var(--tinta);font:400 18px/1.62 "Source Serif 4",Georgia,serif;-webkit-font-smoothing:antialiased}
 img{max-width:100%;height:auto;display:block}
-a{color:inherit}
+a{color:inherit;text-decoration:none}
+a:hover{text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+.boton:hover,.pildora:hover,.cabecera a:hover,.tarjeta a:hover{text-decoration:none}
+main p a,.enlace,.compra .ver{color:var(--oro-oscuro);font-weight:600}
+section[id]{scroll-margin-top:100px}
 .envoltorio{max-width:var(--ancho);margin:0 auto;padding:0 24px}
 .salto{position:absolute;left:-999px}.salto:focus{left:16px;top:16px;background:var(--oro);padding:8px 12px;z-index:10}
 h1,h2,.titular{font-family:"Archivo Narrow","Arial Narrow",sans-serif;font-weight:700;line-height:1.05;letter-spacing:.005em;margin:0}
@@ -22,9 +26,10 @@ h3{font:600 19px/1.3 Inter,system-ui,sans-serif;margin:0}
 .boton.noche{background:var(--noche);color:var(--crema)}.boton.noche:hover{background:#2c3f63}
 :focus-visible{outline:3px solid var(--oro);outline-offset:2px}
 /* cabecera */
-.cabecera{background:var(--noche);color:var(--crema)}
+.cabecera{background:var(--noche);color:var(--crema);z-index:50}
+@media (min-width:981px){.cabecera{position:sticky;top:0;box-shadow:0 1px 0 rgba(246,241,231,.08)}}
 .cabecera .envoltorio{display:flex;align-items:center;justify-content:space-between;min-height:84px;gap:16px;flex-wrap:wrap}
-.cabecera img{height:42px;width:auto}
+.cabecera img{height:52px;width:auto}
 .cabecera nav{display:flex;gap:28px;flex-wrap:wrap}
 .cabecera nav a{font:600 15px/20px Inter,system-ui,sans-serif;text-decoration:none;color:var(--crema)}
 .cabecera nav a:hover{color:var(--oro-claro)}
@@ -35,9 +40,10 @@ h3{font:600 19px/1.3 Inter,system-ui,sans-serif;margin:0}
 .portada p{font-size:20px;line-height:1.55;color:var(--azul-texto);max-width:560px;margin:0 0 30px}
 .circulo svg{width:100%;height:auto}
 section{padding:88px 0}
-.encabezado-seccion{display:flex;justify-content:space-between;align-items:end;gap:40px;margin-bottom:36px;flex-wrap:wrap}
+.encabezado-seccion{margin-bottom:36px}
+.encabezado-seccion h2{margin:0 0 16px}
 .encabezado-seccion h2{font-size:44px}
-.encabezado-seccion p{margin:0;max-width:620px;font-size:16px;line-height:1.55;color:#55524b}
+.encabezado-seccion p{margin:0;max-width:760px;font-size:16px;line-height:1.55;color:#55524b}
 /* tarjetas */
 .libros{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
 .tarjeta{background:var(--oro-tinte);border-radius:var(--r-lg);padding:22px 20px;display:flex;flex-direction:column}
@@ -50,8 +56,16 @@ section{padding:88px 0}
 .compra{margin-top:auto}
 .compra .acciones{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
 .compra .ver{font:600 14px/20px Inter,system-ui,sans-serif;text-underline-offset:3px}
-.otras{font:400 12px/18px Inter,system-ui,sans-serif;color:var(--gris);margin-top:10px}
-.otras a{color:var(--gris)}
+.paises{font:400 13px/20px Inter,system-ui,sans-serif;color:var(--gris);margin-top:14px}
+.paises summary{cursor:pointer;font-weight:600;width:max-content}
+.paises ul{list-style:none;padding:0;margin:10px 0 0;display:flex;flex-wrap:wrap;gap:6px 16px;max-width:520px}
+.paises a{color:var(--gris)}
+.autor-libro{font:600 15px/22px Inter,system-ui,sans-serif;margin:0 0 24px}
+.autor-libro a{color:var(--tinta)}
+.autor-libro a:hover{color:var(--oro-oscuro);text-decoration:none}
+.bloque.linea{background:none;border:1px solid var(--filete);padding:36px 56px;align-items:center}
+.bloque.linea h2{font-size:28px;margin-top:12px}
+.bloque.linea p{color:#3d3f44}
 /* bloques */
 .bloque{border-radius:14px;padding:56px;display:grid;grid-template-columns:300px 1fr;gap:48px}
 .bloque.oro{background:var(--oro-tinte)}

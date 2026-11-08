@@ -31,6 +31,12 @@ Es una historia de hace miles de años que sigue siendo una lección de economí
 
 7 Espigas nace con una colección de economía y crecerá a su alrededor con nuevos libros y otros formatos, siempre sobre la misma cuestión: entender los fenómenos económicos con los que vivimos, cómo cambian con el tiempo y qué riesgos y oportunidades traen. Para aprender, sí, pero también para actuar con conocimiento.
 
+## Portada · El autor (bloque breve)
+
+Economista, auditor e inversor. Lleva cuarenta años dedicado al estudio y la práctica de la economía, las finanzas y la inversión, y es el autor de los cuatro libros de la colección.
+
+Enlace: Más sobre el autor →
+
 ## Boletín
 
 - Etiqueta: Boletín
@@ -42,6 +48,22 @@ Es una historia de hace miles de años que sigue siendo una lección de economí
 
 José Ignacio del Castillo es economista, auditor e inversor. Licenciado en Derecho, cursó estudios de posgrado en Teoría Económica en Auburn University (Estados Unidos), la Universidad Complutense de Madrid y la Universidad Rey Juan Carlos. Lleva cuarenta años dedicado al estudio y la práctica de la economía, las finanzas y la inversión, y ha formado a cientos de alumnos en programas de posgrado de value investing y teoría del ciclo. Ha impartido cursos y conferencias en España e Hispanoamérica, y ha sido profesor en la Universidad de las Hespérides y profesor visitante en la Universidad Francisco Marroquín de Guatemala.
 
+## Libro · La riqueza
+
+¿Es más rica una viuda con su piso y dos garajes que todos los graduados de Harvard juntos? Según las estadísticas de desigualdad, sí. Y ese absurdo resume el problema: la riqueza es una de las cosas de las que más se habla y que peor se entienden.
+
+La riqueza no es un montón de cosas, sino una capacidad que nace del conocimiento, del trabajo y de la cooperación. El libro explica cómo se crea y cómo se destruye, por qué nuestras intuiciones, nuestras estadísticas y nuestros políticos nos llevan a verla al revés, quién se la apropia sin crearla y qué hace falta para conservarla.
+
+Con ejemplos cotidianos, casos históricos y alguna anécdota, un mapa para entender la riqueza de las personas, de las familias y de las naciones. Y para no matar, por ignorancia o por codicia, la gallina de los huevos de oro.
+
+## Libro · Matar al mensajero
+
+¿Por qué un camarero de Zúrich gana más que uno de Madrid? ¿Por qué fijar alquileres máximos acaba vaciando el mercado de pisos? ¿Por qué Brasil quemó su café en plena Gran Depresión?
+
+Los precios son mensajeros. Resumen en una sola cifra lo que millones de personas desean, saben y pueden producir, y avisan a cada uno de lo que debe hacer sin que nadie tenga que dar una orden. Cuando traen malas noticias, la tentación de gobernantes y votantes es la de un antiguo rey de Armenia: matar al mensajero. Precios máximos, salarios por decreto, alquileres congelados, crédito barato… La noticia sigue siendo verdad; lo único que cambia es que ya nadie se entera.
+
+Sin una sola fórmula, y con ejemplos cotidianos —una subasta de móviles, una panadera que pide un préstamo, una finca que puede ser bosque o cantera—, el libro explica cómo se forman los precios, los salarios, los alquileres y el tipo de interés, y qué ocurre cuando se les obliga a callar. Un curso de economía en dos tardes, para presidentes y para todos los demás.
+
 ## Libro · El coste de la distancia
 
 ¿Por qué se vacían los pueblos? ¿Por qué un iPhone se monta en China, pero allí se queda solo una pequeña parte de lo que vale?
@@ -51,6 +73,16 @@ Todo lo que compramos, usamos o habitamos se hace en algún sitio, y casi nunca 
 El libro avanza como una cámara que abre el plano poco a poco: de una parcela de tierra a la ciudad, de la ciudad a las fábricas y los puertos, y de ahí al mundo entero. En cada paso, la misma pregunta: por qué aquí y no allí.
 
 Sin fórmulas y con ejemplos cotidianos, un libro para entender por qué las cosas se hacen donde se hacen. Y para desconfiar de quien diga que la distancia ya no importa.
+
+## Libro · Las cuatro estaciones del dinero
+
+¿Por qué las economías pasan del auge a la crisis una y otra vez? ¿Por qué tantas burbujas terminan igual, y por qué casi nadie las ve venir?
+
+El libro parte de una idea sencilla: la economía no avanza en línea recta, sino que late al ritmo de varios relojes que giran a la vez, y cada cierto tiempo entramos en una estación distinta.
+
+Del ciclo de las existencias de Kitchin al crédito de Juglar, de la construcción de Kuznets a las grandes olas de Kondratiev; de los tipos de interés a las generaciones, la deuda y el auge y la caída de los imperios.
+
+Con historias, ejemplos y lenguaje llano, una guía para entender el desabastecimiento y el pánico bancario, las burbujas y las quiebras, las guerras comerciales y los demagogos. Y para saber en qué estación estamos.
 
 ## Aviso legal
 

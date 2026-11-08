@@ -14,8 +14,8 @@ from pathlib import Path
 RAIZ = Path(__file__).parent
 SALIDA = RAIZ / "_site"
 DOMINIO = "https://7espigas.com"
-TIENDAS = "es,com"
-KIT_FORMULARIO = "10161891"  # formulario «Web 7espigas.com» de Kit (con confirmación por correo)  # tiendas de Amazon donde está la tapa blanda (revisar antes del lanzamiento)
+TIENDAS = "de,au,be,ca,es,com,fr,ie,it,jp,nl,pl,uk,se"  # tiendas de Amazon con tapa blanda de KDP, en orden alfabético del país (comprobar antes del lanzamiento)
+KIT_FORMULARIO = "10161891"  # formulario «Web 7espigas.com» de Kit (con confirmación por correo)
 
 libros = sorted(json.loads((RAIZ / "data/libros.json").read_text(encoding="utf-8")), key=lambda l: l["orden"])
 
@@ -47,6 +47,13 @@ def campos(nombre):
 def parrafos(nombre):
     texto = "\n".join(l for l in S[nombre] if not l.startswith("- ") and not l.startswith("Enlace:"))
     return [p.strip().replace("\n", " ") for p in texto.split("\n\n") if p.strip()]
+
+
+def enlace(nombre):
+    for l in S[nombre]:
+        if l.startswith("Enlace:"):
+            return l[len("Enlace:"):].strip()
+    return ""
 
 
 def esc(t):
@@ -89,11 +96,12 @@ def circulo():
     return "".join(s)
 
 
-def compra(l, ver=True):
+def compra(l, ver=True, paises=False):
     v = f'<a class="ver" href="/libros/{l["id"]}/">Más detalles</a>' if ver else ""
+    otros = ('<details class="paises" hidden><summary>Comprar en otros países</summary><ul></ul></details>' if paises else "")
     return (f'<div class="compra" data-asin="{l["asin"]}"><div class="acciones">'
             f'<a class="boton noche comprar" href="{l["amazon_es"]}" rel="noopener">Comprar en Amazon</a>{v}</div>'
-            f'<p class="otras"></p></div>')
+            f'{otros}</div>')
 
 
 def tarjeta(l):
@@ -126,7 +134,7 @@ def pagina(titulo, descripcion, cuerpo, ruta):
 <body data-tiendas="{TIENDAS}">
 <a class="salto" href="#contenido">Saltar al contenido</a>
 <header class="cabecera"><div class="envoltorio">
-<a href="/" aria-label="7 Espigas, inicio"><img src="/marca/7espigas-logotipo-sobre-oscuro.svg" alt="7 Espigas" width="153" height="42"></a>
+<a href="/" aria-label="7 Espigas, inicio"><img src="/marca/7espigas-logotipo-sobre-oscuro.svg" alt="7 Espigas" width="189" height="52"></a>
 <nav aria-label="Principal"><a href="/#libros">Libros</a><a href="/como-nace/">Cómo nace<span class="largo"> 7 Espigas</span></a><a href="/autor/">El autor</a><a href="/#boletin">Boletín</a></nav>
 </div></header>
 <main id="contenido">
@@ -172,6 +180,10 @@ def inicio():
 <div><span class="pildora">7 Espigas</span><h2>Cómo nace 7 Espigas</h2></div>
 <div>{"".join(f"<p>{esc(p)}</p>" for p in corta)}<a class="enlace" href="/como-nace/">Leer la historia completa →</a></div>
 </div></div></section>
+<section style="padding-top:0"><div class="envoltorio"><div class="bloque linea aparece">
+<div><span class="pildora neutra">El autor</span><h2>José Ignacio del Castillo</h2></div>
+<div>{"".join(f"<p>{esc(p)}</p>" for p in parrafos("Portada · El autor (bloque breve)"))}<a class="enlace" href="/autor/">{esc(enlace("Portada · El autor (bloque breve)"))}</a></div>
+</div></div></section>
 {bloque_boletin()}'''
     return pagina("7 Espigas", portada["Entradilla"], cuerpo, "/")
 
@@ -188,8 +200,8 @@ def pagina_libro(l):
 <div><div class="etiquetas" style="display:flex;gap:6px"><span class="pildora">{l["orden"]} · {esc(l["pregunta"])}</span><span class="pildora neutra">Libro</span></div>
 <h1>{esc(l["titulo"])}</h1>
 <p class="subtitulo">{esc(l["subtitulo"])}</p>
-<p style="font:600 15px Inter,sans-serif;margin:0 0 24px">{esc(l["autor"])} · <a href="/autor/">Sobre el autor</a></p>
-{compra(l, ver=False)}
+<p class="autor-libro"><a href="/autor/">{esc(l["autor"])}</a></p>
+{compra(l, ver=False, paises=True)}
 <div class="texto" style="margin-top:36px">{texto}</div>
 <h2 style="font-size:28px;margin:40px 0 12px">Los otros libros de la colección</h2>
 <ul style="padding-left:20px;margin:0">{otros}</ul>
