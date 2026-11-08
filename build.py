@@ -100,7 +100,7 @@ def compra(l, ver=True, paises=False):
     v = f'<a class="ver" href="/libros/{l["id"]}/">Más detalles</a>' if ver else ""
     otros = ('<details class="paises" hidden><summary>Comprar en otros países</summary><ul></ul></details>' if paises else "")
     return (f'<div class="compra" data-asin="{l["asin"]}"><div class="acciones">'
-            f'<a class="boton noche comprar" href="{l["amazon_es"]}" rel="noopener">Comprar en Amazon</a>{v}</div>'
+            f'<a class="boton noche comprar" href="{l["amazon_es"]}" rel="noopener">Comprar en Amazon.es</a>{v}</div>'
             f'{otros}</div>')
 
 
@@ -209,10 +209,13 @@ def pagina_libro(l):
     return pagina(l["titulo"], f'{l["titulo"]}. {l["subtitulo"]}. Colección Economía para todos.', cuerpo, f'/libros/{l["id"]}/')
 
 
-def pagina_texto(titulo, etiqueta, parrs, ruta, descripcion):
+def pagina_texto(titulo, etiqueta, parrs, ruta, descripcion, ilustracion=""):
+    bloques = [f"<p>{esc(p)}</p>" for p in parrs]
+    if ilustracion:  # tras el primer párrafo
+        bloques.insert(1, ilustracion)
     cuerpo = f'''<section><div class="envoltorio"><div class="texto">
 <span class="pildora">{esc(etiqueta)}</span><h1>{esc(titulo)}</h1>
-{"".join(f"<p>{esc(p)}</p>" for p in parrs)}
+{"".join(bloques)}
 </div></div></section>'''
     return pagina(titulo, descripcion, cuerpo, ruta)
 
@@ -230,7 +233,8 @@ def main():
     escribir("/", inicio())
     for l in libros:
         escribir(f"/libros/{l['id']}/", pagina_libro(l))
-    escribir("/como-nace/", pagina_texto("Cómo nace 7 Espigas", "7 Espigas", parrafos("Página interior · Cómo nace 7 Espigas (versión larga)"), "/como-nace/", "El sueño del faraón, las siete espigas y la idea de la que nace 7 Espigas."))
+    escribir("/como-nace/", pagina_texto("Cómo nace 7 Espigas", "7 Espigas", parrafos("Página interior · Cómo nace 7 Espigas (versión larga)"), "/como-nace/", "El sueño del faraón, las siete espigas y la idea de la que nace 7 Espigas.",
+        '<figure class="ilustracion"><img src="/img/sueno-espigas.svg" width="1200" height="520" alt="Una espiga llena y dorada junto a otra seca y doblada por el viento, con granos caídos a sus pies."></figure>'))
     escribir("/autor/", pagina_texto("José Ignacio del Castillo", "El autor", parrafos("El autor"), "/autor/", "José Ignacio del Castillo, autor de la colección Economía para todos."))
     escribir("/aviso-legal/", pagina_texto("Aviso legal", "Legal", parrafos("Aviso legal"), "/aviso-legal/", "Aviso legal de 7espigas.com."))
     escribir("/privacidad/", pagina_texto("Privacidad", "Legal", parrafos("Privacidad"), "/privacidad/", "Política de privacidad de 7espigas.com."))

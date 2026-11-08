@@ -85,6 +85,10 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 - **Descripciones de los libros:** propuesta a partir de las contracubiertas, en `docs/textos-web.md`, pendiente de revisión. En Matar al mensajero se usa «fijar alquileres máximos» en lugar de «topar» (corrección pendiente también en el libro).
 - **Migas de pan:** solo en las páginas que cuelgan de otra (hoy, las de los libros); las de primer nivel están en el menú.
 
+- **Botón de compra con la tienda a la vista:** «Comprar en Amazon.es» (o .com, .co.uk… según el visitante), para que se distinga de «Comprar en otros países».
+- **Subrayados:** no se trata de eliminarlos todos, sino de no abusar; de momento, la solución sin subrayado (salvo al pasar el ratón) se da por buena.
+- **Ilustración de «Cómo nace 7 Espigas»:** dibujo plano, en la línea de la gallina de La riqueza: una espiga llena (el grano del símbolo, ampliado) y otra mustia, doblada por el viento, con granos caídos. Va en la página interior, tras el primer párrafo; en la portada no hace falta. Archivo: `src/img/sueno-espigas.svg`.
+
 ## Bocetos
 
 - 7 nov: primeras direcciones A (colección) y B (novedad destacada). Descartado el enfoque personalista de ambas; pendiente rehacerlas con el sello en primer plano.

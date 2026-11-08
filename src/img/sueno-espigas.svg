@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 110 1200 520" role="img" aria-labelledby="t d">
+<title id="t">Las dos espigas del sueño del faraón</title>
+<desc id="d">Una espiga llena y dorada junto a otra seca y doblada por el viento, con granos caídos a sus pies.</desc>
+<defs>
+<radialGradient id="luz" cx="560" cy="430" r="460" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#B9C2D3" stop-opacity=".2"/><stop offset=".55" stop-color="#B9C2D3" stop-opacity=".06"/><stop offset="1" stop-color="#B9C2D3" stop-opacity="0"/></radialGradient>
+<g id="grano"><ellipse rx="4.37" ry="9.18"/></g>
+</defs>
+<rect width="1200" height="660" fill="#1E2D47"/>
+<rect width="1200" height="660" fill="url(#luz)"/>
+<!-- suelo -->
+<path d="M0 560 Q600 528 1200 560 V660 H0Z" fill="#22252B" opacity=".55"/>
+<ellipse cx="478" cy="566" rx="120" ry="12" fill="#22252B" opacity=".55"/>
+<ellipse cx="800" cy="566" rx="120" ry="11" fill="#22252B" opacity=".45"/>
+<!-- viento -->
+<g fill="none" stroke="#F6F1E7" stroke-linecap="round" opacity=".14" stroke-width="3">
+<path d="M980 236 Q1050 224 1110 246"/><path d="M1000 290 Q1070 282 1140 304"/><path d="M975 344 Q1035 338 1090 354"/>
+</g>
+<!-- espiga llena (el grano del símbolo, ampliado) -->
+<path d="M481 470 Q484 520 480 562" fill="none" stroke="#C4A464" stroke-width="7" stroke-linecap="round"/>
+<path d="M482 530 Q420 486 396 420 Q448 462 483 508Z" fill="#7D6940"/>
+<g transform="translate(468 318) rotate(-4) scale(3.6)" fill="#C4A464">
+<path d="M0 42 Q20 8 0 -28" fill="none" stroke="#C4A464" stroke-width="2.1" stroke-linecap="round"/>
+<ellipse cx="-2.53" cy="-35.31" rx="4.82" ry="9.41" transform="rotate(-19.1 -2.53 -35.31)"/>
+<ellipse cx="-2.36" cy="-15.07" rx="4.37" ry="9.18" transform="rotate(-56.0 -2.36 -15.07)"/>
+<ellipse cx="15.95" cy="-11.65" rx="4.37" ry="9.18" transform="rotate(24.9 15.95 -11.65)"/>
+<ellipse cx="1.76" cy="0.12" rx="4.37" ry="9.18" transform="rotate(-41.8 1.76 0.12)"/>
+<ellipse cx="18.55" cy="7.50" rx="4.37" ry="9.18" transform="rotate(40.0 18.55 7.50)"/>
+<ellipse cx="1.26" cy="14.74" rx="4.37" ry="9.18" transform="rotate(-35.1 1.26 14.74)"/>
+<ellipse cx="16.73" cy="23.35" rx="4.37" ry="9.18" transform="rotate(53.0 16.73 23.35)"/>
+</g>
+<!-- espiga mustia -->
+<path d="M778 562 Q768 440 800 350 Q826 284 884 300 Q930 314 946 380" fill="none" stroke="#7D6940" stroke-width="6.5" stroke-linecap="round"/>
+<path d="M776 505 Q820 466 862 470 Q816 484 778 528Z" fill="#6B665C"/>
+<g fill="#7D6940">
+<ellipse cx="856" cy="300" rx="11" ry="22" transform="rotate(62 856 300)"/>
+<ellipse cx="898" cy="318" rx="10" ry="20" transform="rotate(112 898 318)"/>
+<ellipse cx="926" cy="346" rx="9" ry="18" transform="rotate(140 926 346)"/>
+<ellipse cx="946" cy="384" rx="8" ry="15" transform="rotate(168 946 384)"/>
+</g>
+<g fill="#6B665C">
+<ellipse cx="840" cy="560" rx="10" ry="5" transform="rotate(-12 840 560)"/>
+<ellipse cx="872" cy="564" rx="9" ry="4.5" transform="rotate(18 872 564)"/>
+<ellipse cx="904" cy="559" rx="8" ry="4" transform="rotate(-25 904 559)"/>
+</g>
+</svg>

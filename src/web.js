@@ -18,7 +18,7 @@
   function url(k,asin){return "https://www."+tiendas[k][0]+"/dp/"+asin;}
   document.querySelectorAll("[data-asin]").forEach(function(caja){
     var asin=caja.getAttribute("data-asin"), boton=caja.querySelector(".comprar"), paises=caja.querySelector(".paises");
-    if(boton){boton.href=url(clave,asin); boton.setAttribute("title","Comprar en Amazon ("+tiendas[clave][1]+")");}
+    if(boton){boton.href=url(clave,asin); boton.textContent="Comprar en Amazon"+tiendas[clave][0].slice(6); boton.setAttribute("title","Tienda de Amazon de "+tiendas[clave][1]);}
     if(paises){var html=[];activas.forEach(function(k){if(k!==clave&&tiendas[k])html.push('<li><a href="'+url(k,asin)+'" rel="noopener">'+tiendas[k][1]+'</a></li>');});
       if(html.length){paises.querySelector("ul").innerHTML=html.join("");paises.hidden=false;}}
   });

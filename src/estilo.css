@@ -104,3 +104,5 @@ section{padding:88px 0}
 .bloque.noche .pildora.neutra{color:var(--crema)}
 .formulario .respuesta{font:600 15px/22px Inter,system-ui,sans-serif;color:var(--oro-claro);margin-top:14px}
 .formulario .nota a{color:var(--azul-suave)}
+
+.ilustracion{margin:36px 0 40px}.ilustracion img{width:100%;height:auto;border-radius:var(--r-lg)}
