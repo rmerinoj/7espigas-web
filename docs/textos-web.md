@@ -68,7 +68,7 @@ Esta web enlaza con sitios de terceros, como Amazon, cuyos contenidos y polític
 
 ## Privacidad
 
-Responsable del tratamiento: Raquel Merino [SEGUNDO APELLIDO], con domicilio en [DOMICILIO]. Contacto: hola@7espigas.com.
+Responsable del tratamiento: Raquel Merino, con domicilio en Valdemorillo (Madrid), España. Contacto: hola@7espigas.com.
 
 Qué datos tratamos y para qué. Si te suscribes al boletín, tratamos tu dirección de correo electrónico para enviarte el boletín y las novedades de 7 Espigas. Si nos escribes, tratamos los datos que nos envíes para responderte.
 
