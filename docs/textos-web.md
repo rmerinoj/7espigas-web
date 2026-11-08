@@ -40,7 +40,7 @@ Es una historia de hace miles de años que sigue siendo una lección de economí
 
 ## El autor
 
-José Ignacio del Castillo es economista, auditor e inversor. Licenciado en Derecho, cursó estudios de posgrado en Teoría Económica en Auburn University (Estados Unidos), la Universidad Complutense de Madrid y la Universidad Rey Juan Carlos. Lleva cuarenta años dedicado al estudio y la práctica de la economía, las finanzas y la inversión, y ha formado a cientos de alumnos en programas de posgrado de value investing y teoría del ciclo. Ha impartido cursos y conferencias en España e Hispanoamérica, entre ellos como profesor visitante en la Universidad Francisco Marroquín de Guatemala.
+José Ignacio del Castillo es economista, auditor e inversor. Licenciado en Derecho, cursó estudios de posgrado en Teoría Económica en Auburn University (Estados Unidos), la Universidad Complutense de Madrid y la Universidad Rey Juan Carlos. Lleva cuarenta años dedicado al estudio y la práctica de la economía, las finanzas y la inversión, y ha formado a cientos de alumnos en programas de posgrado de value investing y teoría del ciclo. Ha impartido cursos y conferencias en España e Hispanoamérica, entre ellos como profesor en la Universidad de las Hespérides de España o profesor visitante en la Universidad Francisco Marroquín de Guatemala.
 
 ## Libro · El coste de la distancia
 
