@@ -106,3 +106,4 @@ section{padding:88px 0}
 .formulario .nota a{color:var(--azul-suave)}
 
 .ilustracion{margin:36px 0 40px}.ilustracion img{width:100%;height:auto;border-radius:var(--r-lg)}
+.otras{font:400 13px/18px Inter,system-ui,sans-serif;margin:10px 0 0}.otras a{color:var(--gris)}

@@ -20,7 +20,8 @@
     var asin=caja.getAttribute("data-asin"), boton=caja.querySelector(".comprar"), paises=caja.querySelector(".paises");
     if(boton){boton.href=url(clave,asin); boton.textContent="Comprar en Amazon"+tiendas[clave][0].slice(6); boton.setAttribute("title","Tienda de Amazon de "+tiendas[clave][1]);}
     if(paises){var html=[];activas.forEach(function(k){if(k!==clave&&tiendas[k])html.push('<li><a href="'+url(k,asin)+'" rel="noopener">'+tiendas[k][1]+'</a></li>');});
-      if(html.length){paises.querySelector("ul").innerHTML=html.join("");paises.hidden=false;}}
+      if(html.length){paises.querySelector("ul").innerHTML=html.join("");paises.hidden=false;
+        if(location.hash==="#paises"){paises.open=true;var ajustar=function(){var fin=paises.getBoundingClientRect().bottom+window.pageYOffset;window.scrollTo(0,Math.max(0,fin-window.innerHeight+40));};ajustar();window.addEventListener("load",function(){setTimeout(ajustar,0);});}}}
   });
   if("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-motion: reduce)").matches){
     var obs=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("visible");obs.unobserve(e.target);}});},{threshold:.12});

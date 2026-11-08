@@ -98,7 +98,8 @@ def circulo():
 
 def compra(l, ver=True, paises=False):
     v = f'<a class="ver" href="/libros/{l["id"]}/">Más detalles</a>' if ver else ""
-    otros = ('<details class="paises" hidden><summary>Comprar en otros países</summary><ul></ul></details>' if paises else "")
+    otros = ('<details class="paises" id="paises" hidden><summary>Comprar en otros países</summary><ul></ul></details>' if paises
+             else f'<p class="otras"><a href="/libros/{l["id"]}/#paises">Comprar en otros países</a></p>' if ver else "")
     return (f'<div class="compra" data-asin="{l["asin"]}"><div class="acciones">'
             f'<a class="boton noche comprar" href="{l["amazon_es"]}" rel="noopener">Comprar en Amazon.es</a>{v}</div>'
             f'{otros}</div>')
