@@ -14,7 +14,8 @@ from pathlib import Path
 RAIZ = Path(__file__).parent
 SALIDA = RAIZ / "_site"
 DOMINIO = "https://7espigas.com"
-TIENDAS = "es,com"  # tiendas de Amazon donde está la tapa blanda (revisar antes del lanzamiento)
+TIENDAS = "es,com"
+KIT_FORMULARIO = "10161891"  # formulario «Web 7espigas.com» de Kit (con confirmación por correo)  # tiendas de Amazon donde está la tapa blanda (revisar antes del lanzamiento)
 
 libros = sorted(json.loads((RAIZ / "data/libros.json").read_text(encoding="utf-8")), key=lambda l: l["orden"])
 
@@ -145,10 +146,11 @@ def bloque_boletin():
     return f'''<section id="boletin" style="padding-top:0"><div class="envoltorio"><div class="bloque noche aparece">
 <div><span class="pildora neutra">{esc(boletin["Etiqueta"])}</span><h2>{esc(boletin["Titular"])}</h2>
 <p style="margin-top:16px">{esc(boletin["Texto"])}</p></div>
-<form class="formulario" action="#" method="post" onsubmit="return false">
+<form class="formulario boletin" action="https://app.kit.com/forms/{KIT_FORMULARIO}/subscriptions" method="post">
 <label for="correo">Correo electrónico</label>
 <div class="fila"><input id="correo" type="email" name="email_address" placeholder="nombre@ejemplo.com" autocomplete="email" required><button class="boton oro" type="submit">Suscribirme</button></div>
-<p class="nota">{esc(boletin["Nota bajo el formulario"])}</p>
+<p class="nota">{esc(boletin["Nota bajo el formulario"])} Al suscribirte aceptas la <a href="/privacidad/">política de privacidad</a>.</p>
+<p class="respuesta" role="status" aria-live="polite" hidden></p>
 </form></div></div></section>'''
 
 

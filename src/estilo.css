@@ -87,3 +87,5 @@ section{padding:88px 0}
 @media (max-width:720px){section{padding:56px 0}.bloque,.bloque.noche{grid-template-columns:1fr;padding:32px 24px;gap:16px}.ficha{grid-template-columns:1fr;gap:28px}.ficha .cubierta{max-width:260px}.encabezado-seccion h2{font-size:36px}.cabecera nav{gap:18px}}
 @media (max-width:520px){.libros{grid-template-columns:1fr}.tarjeta{display:grid;grid-template-columns:110px 1fr;gap:16px;align-items:start}.tarjeta .etiquetas{margin-top:0}.tarjeta>div{min-width:0}}
 .bloque.noche .pildora.neutra{color:var(--crema)}
+.formulario .respuesta{font:600 15px/22px Inter,system-ui,sans-serif;color:var(--oro-claro);margin-top:14px}
+.formulario .nota a{color:var(--azul-suave)}

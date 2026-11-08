@@ -26,3 +26,22 @@
     document.querySelectorAll(".aparece").forEach(function(el){obs.observe(el);});
   } else { document.querySelectorAll(".aparece").forEach(function(el){el.classList.add("visible");}); }
 })();
+/* Boletín: envío a Kit sin salir de la página (sin JavaScript, el formulario va a Kit directamente). */
+(function(){
+  document.querySelectorAll("form.boletin").forEach(function(f){
+    f.addEventListener("submit",function(ev){
+      if(!window.fetch||!window.FormData) return;
+      ev.preventDefault();
+      var r=f.querySelector(".respuesta"), b=f.querySelector("button");
+      b.disabled=true;
+      fetch(f.action,{method:"POST",body:new FormData(f),headers:{Accept:"application/json"}})
+        .then(function(res){return res.json().catch(function(){return {};}).then(function(d){return {ok:res.ok,d:d};});})
+        .then(function(x){
+          if(x.ok&&(!x.d.status||x.d.status==="success")){r.textContent="Gracias. Te hemos enviado un correo: confirma tu suscripción desde él.";f.querySelector(".fila").hidden=true;}
+          else{r.textContent="No se ha podido completar la suscripción. Revisa la dirección e inténtalo de nuevo.";b.disabled=false;}
+          r.hidden=false;
+        })
+        .catch(function(){r.textContent="No se ha podido conectar. Inténtalo de nuevo en unos minutos.";r.hidden=false;b.disabled=false;});
+    });
+  });
+})();

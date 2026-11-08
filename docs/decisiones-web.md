@@ -70,6 +70,8 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 - **Dominios secundarios** (7espigas.es, sieteespigas.com, sieteespigas.es): redirección permanente a 7espigas.com.
 - **Datos legales:** pendientes; el aviso legal llevará huecos que Raquel rellenará antes de publicar.
 
+- **Boletín conectado a Kit (8 nov):** formulario «Web 7espigas.com» (n.º 10161891), con confirmación por correo; dominio 7espigas.com autenticado en Kit; remitente «7 Espigas» <hola@7espigas.com>. Al confirmar, Kit redirige de momento a su página por defecto; cambiar a 7espigas.com/gracias/ al publicar.
+
 ## Bocetos
 
 - 7 nov: primeras direcciones A (colección) y B (novedad destacada). Descartado el enfoque personalista de ambas; pendiente rehacerlas con el sello en primer plano.
