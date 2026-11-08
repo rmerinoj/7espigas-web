@@ -14,12 +14,20 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 - **Amazon:** botón principal a la tienda que corresponda por idioma y zona horaria del navegador (sin cookies); enlaces fijos a las demás tiendas debajo.
 - **Boletín (Kit):** debe ofrecer algo concreto y con valor; nada de «cuando nos apetezca». Promesa pendiente de decidir.
 
+## 8 de noviembre de 2026
+
+- **Colección:** «Economía para todos» (aprobado por José Ignacio). Falta la frase que la acompaña.
+- **Boletín:** contenido abierto a propósito: algún análisis cada quince días aproximadamente, capítulos, píldoras y novedades. El texto debe transmitir que es algo vivo frente al libro. Falta el nombre o gancho.
+- **Enlaces:** cada ficha de libro de la portada lleva a la página del libro; el autor enlaza a su página desde las fichas de sus libros.
+- **Infografía del orden de lectura** en la sección de libros, sin dar a entender que haya que seguirlo.
+
 ## Bocetos
 
 - 7 nov: primeras direcciones A (colección) y B (novedad destacada). Descartado el enfoque personalista de ambas; pendiente rehacerlas con el sello en primer plano.
 
 ## Pendiente
 
-- Nombre de la serie o colección (la del aro), común a la web y a Amazon.
 - Texto de «Por qué 7 Espigas».
-- Promesa del boletín.
+- Nombre o gancho del boletín.
+- Frase de la colección.
+- Ajuste del espacio del logotipo antes del «7».
