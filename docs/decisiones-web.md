@@ -10,7 +10,7 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 - **Marca:** con más presencia en la cabecera que en los primeros bocetos. Al referirse a ella, «7 Espigas», nunca «siete granos».
 - **El aro de la colección** debe estar presente de algún modo en la web.
 - **Tratamiento:** de tú, con mesura: preferir preguntas impersonales y el plural inclusivo. Nada de imperativos de captación ni promesas.
-- **Áreas:** Economía (dorado) y Finanzas (azul noche / gris azulado); subtemas como etiquetas sin color. Pendiente de confirmar con José Ignacio.
+- ~~Áreas con color~~: sustituido por color por colección (boceto E).
 - **Amazon:** botón principal a la tienda que corresponda por idioma y zona horaria del navegador (sin cookies); enlaces fijos a las demás tiendas debajo.
 - **Boletín (Kit):** debe ofrecer algo concreto y con valor; nada de «cuando nos apetezca». Promesa pendiente de decidir.
 
@@ -37,13 +37,20 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 ## 8 de noviembre de 2026 (boceto D)
 
 - **Tono visual:** 7 Espigas no es una editorial al uso (Amazon, otros productos y formatos): rigor, pero no seriedad acartonada. Menos crema y más color: bloques con fondo de color, cabecera en azul noche.
-- **Formas:** etiquetas en píldora y botones con esquinas redondeadas (unos 6 px); fichas y bloques con radio suave (10–14 px). Las cubiertas, a escuadra. Sustituye a la regla «todo a escuadra» del sistema de diseño (pendiente de actualizarlo).
-- **Colores de la colección:** cada libro, el color de una estación de la paleta, en el orden del círculo: 1 La riqueza, salvia; 2 Matar al mensajero, dorado; 3 El coste de la distancia, terracota; 4 Las cuatro estaciones del dinero, azul agrisado.
+- **Formas:** etiquetas en píldora y botones con esquinas redondeadas (unos 6 px); fichas y bloques con radio suave (10–14 px). Las cubiertas, a escuadra. Sistema de diseño ya actualizado.
+- ~~Colores por libro (estaciones)~~: descartado; ver boceto E.
 - **El círculo:** sobre fondo azul relleno, con trazo grueso; etiquetas qué, cómo, dónde y cuándo en cruz (0°, 90°, 180°, 270°). Dos variantes en estudio: cuatro arcos de color o aro dorado cerrado, como el de los lomos.
 - **Fichas de libro:** en horizontal (cuatro en fila), con fondo de su color; no en lista vertical.
 - **Textos fijados por Raquel:** antetítulo «Economía para todos»; entradilla «Cada libro es una unidad que puede leerse por separado; juntos forman un círculo económico que responde al qué, al cómo, al dónde y al cuándo»; presentación de los libros sobre el orden de lectura; texto del boletín.
 - **Sección del nombre:** «Cómo nace 7 Espigas» (no «Por qué este nombre»).
 - **Animaciones:** solo fundidos suaves al entrar los bloques y un leve movimiento de las cubiertas; nada si el usuario pide reducir movimiento.
+
+## 8 de noviembre de 2026 (boceto E): color por colección
+
+- **Sustituye** a las «áreas con color» del 7 nov y a los colores por libro del boceto D.
+- **Tres capas:** marca (azul noche, crema, tinta, dorado) en toda la estructura; una familia de color por colección («Economía para todos»: dorado); temas y formatos, etiquetas neutras.
+- **En la web:** círculo de cuatro arcos dorados sobre disco azul, con los títulos de los libros; tarjetas de libro con el mismo tinte dorado y píldora de cuadrante + etiqueta neutra «Libro»; boletín en azul noche con etiqueta neutra.
+- **Las estaciones**, solo dentro de Las cuatro estaciones del dinero.
 
 ## Bocetos
 
