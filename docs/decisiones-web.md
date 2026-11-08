@@ -96,6 +96,8 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 
 - **Cabecera fija que se aparta (8 nov):** en ordenador, la cabecera se oculta al bajar y reaparece en cuanto se sube un poco (y siempre arriba del todo, o si se llega a ella con el teclado). No se usa la reaparición al pasar el ratón: no funciona en pantallas táctiles, nadie sabe que está ahí y salta sin querer al ir a las pestañas del navegador. Sin flecha de «volver arriba» por ahora: las páginas son cortas; se reconsidera si llegan páginas largas (artículos del boletín, por ejemplo).
 
+- **Barra de desplazamiento:** se reserva siempre su hueco (`scrollbar-gutter: stable`), para que las páginas cortas, que no la tienen, no se desplacen unos píxeles a la derecha respecto de las largas.
+
 ## Bocetos
 
 - 7 nov: primeras direcciones A (colección) y B (novedad destacada). Descartado el enfoque personalista de ambas; pendiente rehacerlas con el sello en primer plano.

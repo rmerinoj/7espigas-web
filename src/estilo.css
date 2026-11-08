@@ -114,3 +114,4 @@ section{padding:88px 0}
 .otras{font:400 13px/18px Inter,system-ui,sans-serif;margin:10px 0 0}.otras a{color:var(--gris)}
 .compra .detalles{margin:14px 0 0}
 body{min-height:100vh;display:flex;flex-direction:column}main{flex:1}
+html{scrollbar-gutter:stable}
