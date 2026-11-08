@@ -64,6 +64,10 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 - **Foto del autor:** más adelante; la página de autor funciona sin ella.
 - **No se publica en 7espigas.com** hasta tener los textos legales y el formulario de Kit conectado.
 
+- **Vista previa privada:** https://claude.ai/artifact/37w3EZaX6i4RKnYYtJNmvp, generada con `python3 preview.py` (rutas relativas). Se actualiza a mano tras cada cambio.
+- **Texto de El coste de la distancia en la web**, adaptado: plural inclusivo en lugar del usted de la contracubierta.
+- **Correo del dominio y datos legales:** pendientes (ver conversación del 8 nov).
+
 ## Bocetos
 
 - 7 nov: primeras direcciones A (colección) y B (novedad destacada). Descartado el enfoque personalista de ambas; pendiente rehacerlas con el sello en primer plano.

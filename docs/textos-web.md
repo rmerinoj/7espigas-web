@@ -46,8 +46,8 @@ José Ignacio del Castillo es economista, auditor e inversor. Licenciado en Dere
 
 ¿Por qué se vacían los pueblos? ¿Por qué un iPhone se monta en China, pero allí se queda solo una pequeña parte de lo que vale?
 
-Todo lo que usted compra, usa o habita se hace en algún sitio, y casi nunca por casualidad. Detrás de cada ubicación hay un cálculo que pocas veces se percibe: lo que cuesta llevar las cosas, y a las personas, de un lugar a otro.
+Todo lo que compramos, usamos o habitamos se hace en algún sitio, y casi nunca por casualidad. Detrás de cada ubicación hay un cálculo que pocas veces se percibe: lo que cuesta llevar las cosas, y a las personas, de un lugar a otro.
 
 El libro avanza como una cámara que abre el plano poco a poco: de una parcela de tierra a la ciudad, de la ciudad a las fábricas y los puertos, y de ahí al mundo entero. En cada paso, la misma pregunta: por qué aquí y no allí.
 
-Sin fórmulas y con ejemplos cotidianos, un libro para entender por qué las cosas se hacen donde se hacen. Y para desconfiar de quien le diga que la distancia ya no importa.
+Sin fórmulas y con ejemplos cotidianos, un libro para entender por qué las cosas se hacen donde se hacen. Y para desconfiar de quien diga que la distancia ya no importa.
