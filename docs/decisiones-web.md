@@ -21,6 +21,11 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 - **Enlaces:** cada ficha de libro de la portada lleva a la página del libro; el autor enlaza a su página desde las fichas de sus libros.
 - **Infografía del orden de lectura** en la sección de libros, sin dar a entender que haya que seguirlo.
 
+- **Cabecera de la portada:** sin repetir las cubiertas, que ya aparecen más abajo; en su lugar, un elemento de la colección (el aro) que remita a ellas.
+- **Muestrario:** todos los bocetos y versiones se guardan en el Muestrario tipográfico (https://claude.ai/artifact/Ub9WBwkQLpYPzc4S8ynuYF).
+- **Logotipo:** espacio antes del «7» reducido (−6); usar los archivos nuevos de 7ESPIGAS\Marca.
+- **Infografía de la colección:** circular, cuatro cuadrantes (qué, cómo, dónde, cuándo); concepto en el Drive.
+
 ## Bocetos
 
 - 7 nov: primeras direcciones A (colección) y B (novedad destacada). Descartado el enfoque personalista de ambas; pendiente rehacerlas con el sello en primer plano.
@@ -30,4 +35,3 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 - Texto de «Por qué 7 Espigas».
 - Nombre o gancho del boletín.
 - Frase de la colección.
-- Ajuste del espacio del logotipo antes del «7».
