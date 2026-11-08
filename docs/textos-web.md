@@ -5,13 +5,13 @@ Textos aprobados (o en revisión, marcado) para 7espigas.com. Fuente única: la 
 ## Portada · cabecera
 
 - Antetítulo: Economía para todos
-- Titular: ¿Qué hay detrás de lo que vivimos cada día?
+- Titular: Transformaciones económicas en tiempo real
 - Entradilla: Esta colección forma un círculo que responde al qué, al cómo, al dónde y al cuándo de los fenómenos económicos. Se trata de contribuir a reconocerlos a tiempo, protegernos de sus amenazas y aprovechar sus oportunidades.
 - Botón: Ver los cuatro libros
 
 ## Portada · los libros
 
-La economía es un todo que, por operatividad, se divide en grandes áreas de conocimiento. La interconexión entre ellas es real: del estudio de la riqueza de Adam Smith a la distribución de renta y riqueza (precios y salarios), al desarrollo y la geografía económica o los ciclos económicos.
+La economía es un «todo» que, para su estudio, se divide en grandes áreas. Pero los hilos que las unen son reales: del estudio de la riqueza, con Adam Smith, a su reparto en precios, salarios y rentas, con David Ricardo; de ahí al desarrollo y la geografía económica, con Johann Heinrich von Thünen, y a los ciclos, con Ludwig von Mises y Friedrich Hayek. Cada libro se lee por separado; en este orden, siguen ese mismo recorrido.
 
 ## Portada · Cómo nace 7 Espigas (versión corta)
 
@@ -35,12 +35,12 @@ Es una historia de hace miles de años que sigue siendo una lección de economí
 
 - Etiqueta: Boletín
 - Titular: Abordando las transformaciones económicas en tiempo real
-- Texto: Encontrarás análisis de lo que está ocurriendo y, más importante, de lo que está por venir, con riesgos y oportunidades. También: capítulos de libros, píldoras y todas nuestras novedades.
+- Texto: Encontrarás análisis de lo que está ocurriendo y, más importante, de lo que está por venir, con sus riesgos y oportunidades. También capítulos de libros, píldoras y todas nuestras novedades.
 - Nota bajo el formulario: Sin publicidad. Puedes darte de baja cuando quieras.
 
 ## El autor
 
-José Ignacio del Castillo es economista, auditor e inversor. Licenciado en Derecho, cursó estudios de posgrado en Teoría Económica en Auburn University (Estados Unidos), la Universidad Complutense de Madrid y la Universidad Rey Juan Carlos. Lleva cuarenta años dedicado al estudio y la práctica de la economía, las finanzas y la inversión, y ha formado a cientos de alumnos en programas de posgrado de value investing y teoría del ciclo. Ha impartido cursos y conferencias en España e Hispanoamérica, entre ellos como profesor en la Universidad de las Hespérides de España o profesor visitante en la Universidad Francisco Marroquín de Guatemala.
+José Ignacio del Castillo es economista, auditor e inversor. Licenciado en Derecho, cursó estudios de posgrado en Teoría Económica en Auburn University (Estados Unidos), la Universidad Complutense de Madrid y la Universidad Rey Juan Carlos. Lleva cuarenta años dedicado al estudio y la práctica de la economía, las finanzas y la inversión, y ha formado a cientos de alumnos en programas de posgrado de value investing y teoría del ciclo. Ha impartido cursos y conferencias en España e Hispanoamérica, y ha sido profesor en la Universidad de las Hespérides y profesor visitante en la Universidad Francisco Marroquín de Guatemala.
 
 ## Libro · El coste de la distancia
 
