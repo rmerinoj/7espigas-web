@@ -37,3 +37,17 @@ Es una historia de hace miles de años que sigue siendo una lección de economí
 - Titular: Transformaciones económicas en tiempo real
 - Texto: Encontrarás análisis de lo que está ocurriendo y, aún más importante, de lo que está por venir: sus riesgos y sus oportunidades. También capítulos de libros, píldoras y novedades de 7 Espigas.
 - Nota bajo el formulario: Sin publicidad. Puedes darte de baja cuando quieras.
+
+## El autor
+
+José Ignacio del Castillo es economista, auditor e inversor. Licenciado en Derecho, cursó estudios de posgrado en Teoría Económica en Auburn University (Estados Unidos), la Universidad Complutense de Madrid y la Universidad Rey Juan Carlos. Lleva cuarenta años dedicado al estudio y la práctica de la economía, las finanzas y la inversión, y ha formado a cientos de alumnos en programas de posgrado de value investing y teoría del ciclo. Ha impartido cursos y conferencias en España e Hispanoamérica, entre ellos como profesor visitante en la Universidad Francisco Marroquín de Guatemala.
+
+## Libro · El coste de la distancia
+
+¿Por qué se vacían los pueblos? ¿Por qué un iPhone se monta en China, pero allí se queda solo una pequeña parte de lo que vale?
+
+Todo lo que usted compra, usa o habita se hace en algún sitio, y casi nunca por casualidad. Detrás de cada ubicación hay un cálculo que pocas veces se percibe: lo que cuesta llevar las cosas, y a las personas, de un lugar a otro.
+
+El libro avanza como una cámara que abre el plano poco a poco: de una parcela de tierra a la ciudad, de la ciudad a las fábricas y los puertos, y de ahí al mundo entero. En cada paso, la misma pregunta: por qué aquí y no allí.
+
+Sin fórmulas y con ejemplos cotidianos, un libro para entender por qué las cosas se hacen donde se hacen. Y para desconfiar de quien le diga que la distancia ya no importa.

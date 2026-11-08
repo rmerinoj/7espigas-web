@@ -1,0 +1,89 @@
+/* 7 Espigas — estilos de la web. Valores del sistema de diseño (https://claude.ai/artifact/8Gz93E6fLbDxqFAwRNFuWH). */
+@font-face{font-family:Inter;src:url(/fonts/inter-latin-400-normal.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:Inter;src:url(/fonts/inter-latin-600-normal.woff2) format("woff2");font-weight:600;font-display:swap}
+@font-face{font-family:"Source Serif 4";src:url(/fonts/source-serif-4-latin-400-normal.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Source Serif 4";src:url(/fonts/source-serif-4-latin-400-italic.woff2) format("woff2");font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:"Archivo Narrow";src:url(/fonts/archivo-narrow-latin-700-normal.woff2) format("woff2");font-weight:700;font-display:swap}
+:root{--noche:#1E2D47;--noche-2:#26375A;--crema:#F6F1E7;--tinta:#22252B;--oro:#C4A464;--oro-claro:#E2C98F;--oro-oscuro:#7D6940;--oro-tinte:#EEE6D4;--gris:#6B665C;--filete:#D9CFBC;--azul-texto:#DCE1EA;--azul-suave:#B9C2D3;
+--r-sm:6px;--r-lg:12px;--ancho:1160px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--crema);color:var(--tinta);font:400 18px/1.62 "Source Serif 4",Georgia,serif;-webkit-font-smoothing:antialiased}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+.envoltorio{max-width:var(--ancho);margin:0 auto;padding:0 24px}
+.salto{position:absolute;left:-999px}.salto:focus{left:16px;top:16px;background:var(--oro);padding:8px 12px;z-index:10}
+h1,h2,.titular{font-family:"Archivo Narrow","Arial Narrow",sans-serif;font-weight:700;line-height:1.05;letter-spacing:.005em;margin:0}
+h3{font:600 19px/1.3 Inter,system-ui,sans-serif;margin:0}
+.pildora{display:inline-block;font:600 11px/14px Inter,system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;padding:5px 11px;border-radius:999px;background:var(--oro);color:var(--tinta);text-decoration:none}
+.pildora.neutra{background:none;border:1px solid currentColor;padding:4px 10px}
+.boton{display:inline-block;font:600 15px/20px Inter,system-ui,sans-serif;padding:12px 20px;border-radius:var(--r-sm);text-decoration:none;border:0;cursor:pointer}
+.boton.oro{background:var(--oro);color:var(--tinta)}.boton.oro:hover{background:var(--oro-claro)}
+.boton.noche{background:var(--noche);color:var(--crema)}.boton.noche:hover{background:#2c3f63}
+:focus-visible{outline:3px solid var(--oro);outline-offset:2px}
+/* cabecera */
+.cabecera{background:var(--noche);color:var(--crema)}
+.cabecera .envoltorio{display:flex;align-items:center;justify-content:space-between;min-height:84px;gap:16px;flex-wrap:wrap}
+.cabecera img{height:42px;width:auto}
+.cabecera nav{display:flex;gap:28px;flex-wrap:wrap}
+.cabecera nav a{font:600 15px/20px Inter,system-ui,sans-serif;text-decoration:none;color:var(--crema)}
+.cabecera nav a:hover{color:var(--oro-claro)}
+/* portada */
+.portada{background:var(--noche);color:var(--crema);padding:40px 0 80px}
+.portada .envoltorio{display:grid;grid-template-columns:1fr minmax(320px,560px);gap:40px;align-items:center}
+.portada h1{font-size:clamp(40px,5.2vw,62px);margin:22px 0 24px}
+.portada p{font-size:20px;line-height:1.55;color:var(--azul-texto);max-width:560px;margin:0 0 30px}
+.circulo svg{width:100%;height:auto}
+section{padding:88px 0}
+.encabezado-seccion{display:flex;justify-content:space-between;align-items:end;gap:40px;margin-bottom:36px;flex-wrap:wrap}
+.encabezado-seccion h2{font-size:44px}
+.encabezado-seccion p{margin:0;max-width:620px;font-size:16px;line-height:1.55;color:#55524b}
+/* tarjetas */
+.libros{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.tarjeta{background:var(--oro-tinte);border-radius:var(--r-lg);padding:22px 20px;display:flex;flex-direction:column}
+.tarjeta .cubierta{border-radius:2px;box-shadow:0 12px 26px -14px rgba(30,45,71,.55);transition:transform .25s ease}
+.tarjeta:hover .cubierta{transform:translateY(-4px)}
+.tarjeta .etiquetas{margin-top:18px;display:flex;gap:6px;flex-wrap:wrap}
+.tarjeta h3{margin:14px 0 4px}
+.tarjeta h3 a{text-decoration:none}
+.tarjeta .subtitulo{font-style:italic;font-size:15px;line-height:1.45;margin:0 0 16px;color:#3d3f44}
+.compra{margin-top:auto}
+.compra .acciones{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.compra .ver{font:600 14px/20px Inter,system-ui,sans-serif;text-underline-offset:3px}
+.otras{font:400 12px/18px Inter,system-ui,sans-serif;color:var(--gris);margin-top:10px}
+.otras a{color:var(--gris)}
+/* bloques */
+.bloque{border-radius:14px;padding:56px;display:grid;grid-template-columns:300px 1fr;gap:48px}
+.bloque.oro{background:var(--oro-tinte)}
+.bloque.noche{background:var(--noche);color:var(--crema);grid-template-columns:1fr 1fr;align-items:center}
+.bloque h2{font-size:40px;margin-top:16px}
+.bloque p{margin:0 0 16px}
+.enlace{font:600 15px/20px Inter,system-ui,sans-serif;text-underline-offset:3px}
+.formulario label{font:600 13px Inter,system-ui,sans-serif;display:block;margin-bottom:8px}
+.formulario .fila{display:flex;gap:10px;flex-wrap:wrap}
+.formulario input{flex:1;min-width:200px;font:400 16px Inter,system-ui,sans-serif;padding:12px 14px;border:0;border-radius:var(--r-sm);background:var(--crema);color:var(--tinta)}
+.formulario .nota{font:400 13px/18px Inter,system-ui,sans-serif;color:var(--azul-suave);margin-top:12px}
+/* página de libro y páginas de texto */
+.ficha{display:grid;grid-template-columns:minmax(220px,360px) 1fr;gap:56px;align-items:start}
+.ficha .cubierta{box-shadow:0 16px 34px -16px rgba(30,45,71,.6)}
+.ficha h1{font-size:clamp(38px,5vw,56px);margin:16px 0 8px}
+.ficha .subtitulo{font-style:italic;font-size:21px;line-height:1.45;color:#3d3f44;margin:0 0 24px}
+.texto{max-width:680px}
+.texto h1{font-size:clamp(36px,5vw,52px);margin:16px 0 28px}
+.texto p{margin:0 0 18px}
+.miga{font:600 13px Inter,system-ui,sans-serif;color:var(--gris)}
+.miga a{color:var(--gris)}
+/* pie */
+.pie{background:var(--noche);color:var(--azul-suave);padding:36px 0;font:400 13px/18px Inter,system-ui,sans-serif}
+.pie .envoltorio{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+.pie img{height:26px;width:auto}
+.pie nav{display:flex;gap:18px}.pie a{color:var(--azul-suave)}
+/* animación discreta */
+.js .aparece{opacity:0;transform:translateY(12px);transition:opacity .6s ease,transform .6s ease}
+.js .aparece.visible{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.js .aparece{opacity:1;transform:none;transition:none}.tarjeta .cubierta{transition:none}}
+/* pantallas medianas y móviles */
+@media (max-width:980px){.libros{grid-template-columns:repeat(2,1fr)}.portada .envoltorio{grid-template-columns:1fr}.circulo{max-width:480px;margin:0 auto}}
+@media (max-width:720px){section{padding:56px 0}.bloque,.bloque.noche{grid-template-columns:1fr;padding:32px 24px;gap:16px}.ficha{grid-template-columns:1fr;gap:28px}.ficha .cubierta{max-width:260px}.encabezado-seccion h2{font-size:36px}.cabecera nav{gap:18px}}
+@media (max-width:520px){.libros{grid-template-columns:1fr}.tarjeta{display:grid;grid-template-columns:110px 1fr;gap:16px;align-items:start}.tarjeta .etiquetas{margin-top:0}.tarjeta>div{min-width:0}}
+.bloque.noche .pildora.neutra{color:var(--crema)}
