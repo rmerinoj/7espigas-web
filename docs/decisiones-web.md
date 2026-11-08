@@ -34,6 +34,17 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 - **Boletín:** «Transformaciones económicas en tiempo real».
 - **Fichas de libro:** con enlace directo «Comprar en Amazon» en cada una, además de «Ver el libro».
 
+## 8 de noviembre de 2026 (boceto D)
+
+- **Tono visual:** 7 Espigas no es una editorial al uso (Amazon, otros productos y formatos): rigor, pero no seriedad acartonada. Menos crema y más color: bloques con fondo de color, cabecera en azul noche.
+- **Formas:** etiquetas en píldora y botones con esquinas redondeadas (unos 6 px); fichas y bloques con radio suave (10–14 px). Las cubiertas, a escuadra. Sustituye a la regla «todo a escuadra» del sistema de diseño (pendiente de actualizarlo).
+- **Colores de la colección:** cada libro, el color de una estación de la paleta, en el orden del círculo: 1 La riqueza, salvia; 2 Matar al mensajero, dorado; 3 El coste de la distancia, terracota; 4 Las cuatro estaciones del dinero, azul agrisado.
+- **El círculo:** sobre fondo azul relleno, con trazo grueso; etiquetas qué, cómo, dónde y cuándo en cruz (0°, 90°, 180°, 270°). Dos variantes en estudio: cuatro arcos de color o aro dorado cerrado, como el de los lomos.
+- **Fichas de libro:** en horizontal (cuatro en fila), con fondo de su color; no en lista vertical.
+- **Textos fijados por Raquel:** antetítulo «Economía para todos»; entradilla «Cada libro es una unidad que puede leerse por separado; juntos forman un círculo económico que responde al qué, al cómo, al dónde y al cuándo»; presentación de los libros sobre el orden de lectura; texto del boletín.
+- **Sección del nombre:** «Cómo nace 7 Espigas» (no «Por qué este nombre»).
+- **Animaciones:** solo fundidos suaves al entrar los bloques y un leve movimiento de las cubiertas; nada si el usuario pide reducir movimiento.
+
 ## Bocetos
 
 - 7 nov: primeras direcciones A (colección) y B (novedad destacada). Descartado el enfoque personalista de ambas; pendiente rehacerlas con el sello en primer plano.
