@@ -51,3 +51,39 @@ Todo lo que compramos, usamos o habitamos se hace en algún sitio, y casi nunca 
 El libro avanza como una cámara que abre el plano poco a poco: de una parcela de tierra a la ciudad, de la ciudad a las fábricas y los puertos, y de ahí al mundo entero. En cada paso, la misma pregunta: por qué aquí y no allí.
 
 Sin fórmulas y con ejemplos cotidianos, un libro para entender por qué las cosas se hacen donde se hacen. Y para desconfiar de quien diga que la distancia ya no importa.
+
+## Aviso legal
+
+En cumplimiento de la Ley 34/2002, de servicios de la sociedad de la información y de comercio electrónico (LSSI), se informa de los datos del titular de este sitio web:
+
+Titular: Raquel Merino [SEGUNDO APELLIDO]. NIF: [NIF]. Domicilio: [DOMICILIO]. Correo electrónico: hola@7espigas.com.
+
+7espigas.com presenta los libros de la colección «Economía para todos» y otros contenidos de divulgación económica. Los libros se venden a través de Amazon; las compras se rigen por las condiciones de Amazon, no por las de esta web.
+
+Los textos, imágenes, cubiertas, logotipos y demás contenidos de esta web pertenecen a sus autores y a 7 Espigas, salvo que se indique otra cosa. No se pueden reproducir sin permiso, salvo en citas breves que indiquen la fuente.
+
+Los contenidos de esta web y de los libros describen ideas y marcos de análisis económico. No constituyen asesoramiento financiero, de inversión, fiscal ni jurídico.
+
+Esta web enlaza con sitios de terceros, como Amazon, cuyos contenidos y políticas no dependen de 7 Espigas.
+
+## Privacidad
+
+Responsable del tratamiento: Raquel Merino [SEGUNDO APELLIDO], con domicilio en [DOMICILIO]. Contacto: hola@7espigas.com.
+
+Qué datos tratamos y para qué. Si te suscribes al boletín, tratamos tu dirección de correo electrónico para enviarte el boletín y las novedades de 7 Espigas. Si nos escribes, tratamos los datos que nos envíes para responderte.
+
+Legitimación. El consentimiento que das al suscribirte o al escribirnos. Puedes retirarlo en cualquier momento, con el enlace de baja que llevan todos los boletines o escribiendo a hola@7espigas.com.
+
+Conservación. Mientras sigas suscrito o mientras sea necesario para atender tu consulta.
+
+Quién más accede a los datos. El boletín se gestiona con Kit (Kit Inc., Estados Unidos), que actúa como encargado del tratamiento con las garantías previstas en el Reglamento General de Protección de Datos para las transferencias internacionales. El correo se aloja en DonDominio (España). No cedemos datos a nadie más ni los usamos con fines publicitarios.
+
+Tus derechos. Puedes pedir el acceso, la rectificación, la supresión, la oposición, la limitación del tratamiento y la portabilidad de tus datos escribiendo a hola@7espigas.com. Si crees que no se han atendido correctamente, puedes reclamar ante la Agencia Española de Protección de Datos (aepd.es).
+
+## Cookies
+
+7espigas.com no usa cookies propias ni de terceros para analizar tu navegación ni para mostrar publicidad. Por eso no te pedimos que las aceptes.
+
+Para elegir la tienda de Amazon de tu país, la web consulta el idioma y la zona horaria que indica tu navegador. No guarda esa información ni la envía a nadie.
+
+Al pulsar un enlace a Amazon sales de esta web; desde ese momento se aplica la política de cookies de Amazon.

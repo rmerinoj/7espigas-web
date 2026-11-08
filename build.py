@@ -218,10 +218,9 @@ def main():
         escribir(f"/libros/{l['id']}/", pagina_libro(l))
     escribir("/como-nace/", pagina_texto("Cómo nace 7 Espigas", "7 Espigas", parrafos("Página interior · Cómo nace 7 Espigas (versión larga)"), "/como-nace/", "El sueño del faraón, las siete espigas y la idea de la que nace 7 Espigas."))
     escribir("/autor/", pagina_texto("José Ignacio del Castillo", "El autor", parrafos("El autor"), "/autor/", "José Ignacio del Castillo, autor de la colección Economía para todos."))
-    pend = ["Texto pendiente de redactar antes de la publicación."]
-    escribir("/aviso-legal/", pagina_texto("Aviso legal", "Legal", pend, "/aviso-legal/", "Aviso legal de 7espigas.com."))
-    escribir("/privacidad/", pagina_texto("Privacidad", "Legal", pend, "/privacidad/", "Política de privacidad de 7espigas.com."))
-    escribir("/cookies/", pagina_texto("Cookies", "Legal", ["7espigas.com no usa cookies de seguimiento ni de publicidad."] + pend, "/cookies/", "Política de cookies de 7espigas.com."))
+    escribir("/aviso-legal/", pagina_texto("Aviso legal", "Legal", parrafos("Aviso legal"), "/aviso-legal/", "Aviso legal de 7espigas.com."))
+    escribir("/privacidad/", pagina_texto("Privacidad", "Legal", parrafos("Privacidad"), "/privacidad/", "Política de privacidad de 7espigas.com."))
+    escribir("/cookies/", pagina_texto("Cookies", "Legal", parrafos("Cookies"), "/cookies/", "Política de cookies de 7espigas.com."))
     (SALIDA / "CNAME").write_text("7espigas.com\n")
     (SALIDA / ".nojekyll").write_text("")
     print("Web generada en", SALIDA)
