@@ -66,7 +66,9 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 
 - **Vista previa privada:** https://claude.ai/artifact/37w3EZaX6i4RKnYYtJNmvp, generada con `python3 preview.py` (rutas relativas). Se actualiza a mano tras cada cambio.
 - **Texto de El coste de la distancia en la web**, adaptado: plural inclusivo en lugar del usted de la contracubierta.
-- **Correo del dominio y datos legales:** pendientes (ver conversación del 8 nov).
+- **Correo:** hola@7espigas.com (plan Mini de DonDominio), contacto y remitente del boletín.
+- **Dominios secundarios** (7espigas.es, sieteespigas.com, sieteespigas.es): redirección permanente a 7espigas.com.
+- **Datos legales:** pendientes; el aviso legal llevará huecos que Raquel rellenará antes de publicar.
 
 ## Bocetos
 
