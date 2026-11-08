@@ -26,6 +26,14 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 - **Logotipo:** espacio antes del «7» reducido (−6); usar los archivos nuevos de 7ESPIGAS\Marca.
 - **Infografía de la colección:** circular, cuatro cuadrantes (qué, cómo, dónde, cuándo); concepto en el Drive.
 
+## 8 de noviembre de 2026 (tarde)
+
+- **El lema «Todos lo viven, pocos lo entienden» queda aparcado** como lema propio: resulta pretencioso atribuírnoslo. Solo se usará como cita de Goethe, cuando venga a cuento.
+- **Foco de la web: la colección y los libros**, que ya existen y queremos vender. Nada de prometer contenidos o comunidad que todavía no hay; 7 Espigas se presenta como un espacio que irá creciendo alrededor de la temática, con pequeños monográficos cuando los haya.
+- **Colección:** «Economía para todos», con la pregunta «¿Qué hay detrás de lo que vivimos cada día?».
+- **Boletín:** «Transformaciones económicas en tiempo real».
+- **Fichas de libro:** con enlace directo «Comprar en Amazon» en cada una, además de «Ver el libro».
+
 ## Bocetos
 
 - 7 nov: primeras direcciones A (colección) y B (novedad destacada). Descartado el enfoque personalista de ambas; pendiente rehacerlas con el sello en primer plano.
