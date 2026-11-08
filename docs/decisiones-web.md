@@ -52,6 +52,8 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 - **En la web:** círculo de cuatro arcos dorados sobre disco azul, con los títulos de los libros; tarjetas de libro con el mismo tinte dorado y píldora de cuadrante + etiqueta neutra «Libro»; boletín en azul noche con etiqueta neutra.
 - **Las estaciones**, solo dentro de Las cuatro estaciones del dinero.
 
+- **Textos:** los aprobados viven en `docs/textos-web.md` (8 nov). «Cómo nace 7 Espigas» tendrá versión corta en portada y larga en página propia.
+
 ## Bocetos
 
 - 7 nov: primeras direcciones A (colección) y B (novedad destacada). Descartado el enfoque personalista de ambas; pendiente rehacerlas con el sello en primer plano.
