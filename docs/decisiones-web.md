@@ -56,6 +56,14 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 
 - **Enlaces de Amazon (8 nov):** se guarda el ASIN de cada libro en `data/libros.json`; el enlace se construye como `amazon.<tienda>/dp/<ASIN>`. Tienda principal según idioma y zona horaria del navegador (sin cookies ni IP), con enlaces a las demás debajo. Antes de publicar, comprobar en qué tiendas está disponible cada libro.
 
+## 8 de noviembre de 2026: primera versión construida
+
+- **Técnica:** web estática generada con `build.py` a partir de `data/libros.json` y `docs/textos-web.md`; se publica sola con GitHub Actions al subir cambios a `main`.
+- **Fuentes servidas desde la propia web**, no desde Google Fonts, para no enviar datos de los visitantes a terceros.
+- **Solo tapa blanda** en Amazon por ahora; tiendas activas en la web: España y Estados Unidos (revisar en el lanzamiento).
+- **Foto del autor:** más adelante; la página de autor funciona sin ella.
+- **No se publica en 7espigas.com** hasta tener los textos legales y el formulario de Kit conectado.
+
 ## Bocetos
 
 - 7 nov: primeras direcciones A (colección) y B (novedad destacada). Descartado el enfoque personalista de ambas; pendiente rehacerlas con el sello en primer plano.
