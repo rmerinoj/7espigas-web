@@ -46,8 +46,7 @@ section{padding:88px 0}
 .tarjeta .etiquetas{margin-top:18px;display:flex;gap:6px;flex-wrap:wrap}
 .tarjeta h3{margin:14px 0 4px}
 .tarjeta h3 a{text-decoration:none}
-.tarjeta .subtitulo{font-style:italic;font-size:15px;line-height:1.45;margin:0 0 8px;color:#3d3f44}
-.autor-tarjeta{font:600 13px/18px Inter,system-ui,sans-serif;margin:0 0 16px}.autor-tarjeta a{text-decoration:none;color:var(--oro-oscuro)}.autor-tarjeta a:hover{text-decoration:underline}
+.tarjeta .subtitulo{font-style:italic;font-size:15px;line-height:1.45;margin:0 0 16px;color:#3d3f44}
 .compra{margin-top:auto}
 .compra .acciones{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
 .compra .ver{font:600 14px/20px Inter,system-ui,sans-serif;text-underline-offset:3px}

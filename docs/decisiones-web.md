@@ -19,6 +19,7 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 - **Colección:** «Economía para todos» (aprobado por José Ignacio). Falta la frase que la acompaña.
 - **Boletín:** contenido abierto a propósito: algún análisis cada quince días aproximadamente, capítulos, píldoras y novedades. El texto debe transmitir que es algo vivo frente al libro. Falta el nombre o gancho.
 - **Enlaces:** cada ficha de libro de la portada lleva a la página del libro; el autor enlaza a su página desde las fichas de sus libros.
+- **Autor en la portada** (8 nov): ni bloque de autor ni nombre en las tarjetas de la portada. El bloque «El autor» del boceto B se quitó con el enfoque personalista. José Ignacio figura en la página de cada libro (nombre y enlace a «Sobre el autor») y en la página «El autor» del menú.
 - **Infografía del orden de lectura** en la sección de libros, sin dar a entender que haya que seguirlo.
 
 - **Cabecera de la portada:** sin repetir las cubiertas, que ya aparecen más abajo; en su lugar, un elemento de la colección (el aro) que remita a ellas.

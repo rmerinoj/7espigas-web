@@ -102,7 +102,6 @@ def tarjeta(l):
 <div><div class="etiquetas"><span class="pildora">{l["orden"]} · {esc(l["pregunta"])}</span><span class="pildora neutra">Libro</span></div>
 <h3><a href="/libros/{l["id"]}/">{esc(l["titulo"])}</a></h3>
 <p class="subtitulo">{esc(l["subtitulo"])}</p>
-<p class="autor-tarjeta"><a href="/autor/">{esc(l["autor"])}</a></p>
 {compra(l)}</div></article>'''
 
 
