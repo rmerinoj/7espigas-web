@@ -5,7 +5,7 @@ Textos aprobados (o en revisión, marcado) para 7espigas.com. Fuente única: la 
 ## Portada · cabecera
 
 - Antetítulo: Economía para todos
-- Titular: Transformaciones económicas en tiempo real
+- Titular: ¿Qué hay detrás de lo que vivimos cada día?
 - Entradilla: Esta colección forma un círculo que responde al qué, al cómo, al dónde y al cuándo de los fenómenos económicos. Se trata de contribuir a reconocerlos a tiempo, protegernos de sus amenazas y aprovechar sus oportunidades.
 - Botón: Ver los cuatro libros
 
@@ -34,7 +34,7 @@ Es una historia de hace miles de años que sigue siendo una lección de economí
 ## Boletín
 
 - Etiqueta: Boletín
-- Titular: Abordando las transformaciones económicas en tiempo real
+- Titular: Transformaciones económicas en tiempo real
 - Texto: Encontrarás análisis de lo que está ocurriendo y, más importante, de lo que está por venir, con sus riesgos y oportunidades. También capítulos de libros, píldoras y todas nuestras novedades.
 - Nota bajo el formulario: Sin publicidad. Puedes darte de baja cuando quieras.
 
