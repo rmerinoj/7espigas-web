@@ -83,7 +83,7 @@ def circulo():
                  f'<text x="{x}" y="{y + 5}" text-anchor="middle" font-family="Inter, sans-serif" font-weight="600" font-size="13" letter-spacing="1.4" fill="#F6F1E7">{i + 1} · {l["pregunta"].upper()}</text>')
         tx, ty, anc, ls = tit[i]
         for j, linea in enumerate(ls):
-            s.append(f'<text x="{tx}" y="{ty + j * 20}" text-anchor="{anc}" font-family="Source Serif 4, Georgia, serif" font-style="italic" font-size="18" fill="#E2C98F">{esc(linea)}</text>')
+            s.append(f'<text x="{tx}" y="{ty + j * 20}" text-anchor="{anc}" class="titulo-libro" font-family="Source Serif 4, Georgia, serif" font-style="italic" font-size="18" fill="#E2C98F">{esc(linea)}</text>')
         s.append("</a>")
     s.append("</svg>")
     return "".join(s)
@@ -127,7 +127,7 @@ def pagina(titulo, descripcion, cuerpo, ruta):
 <a class="salto" href="#contenido">Saltar al contenido</a>
 <header class="cabecera"><div class="envoltorio">
 <a href="/" aria-label="7 Espigas, inicio"><img src="/marca/7espigas-logotipo-sobre-oscuro.svg" alt="7 Espigas" width="153" height="42"></a>
-<nav aria-label="Principal"><a href="/#libros">Libros</a><a href="/como-nace/">Cómo nace 7 Espigas</a><a href="/autor/">El autor</a><a href="/#boletin">Boletín</a></nav>
+<nav aria-label="Principal"><a href="/#libros">Libros</a><a href="/como-nace/">Cómo nace<span class="largo"> 7 Espigas</span></a><a href="/autor/">El autor</a><a href="/#boletin">Boletín</a></nav>
 </div></header>
 <main id="contenido">
 {cuerpo}
