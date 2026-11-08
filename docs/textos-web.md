@@ -11,7 +11,7 @@ Textos aprobados (o en revisión, marcado) para 7espigas.com. Fuente única: la 
 
 ## Portada · los libros
 
-La economía es un «todo» que, para su estudio, se divide en grandes áreas. Pero los hilos que las unen son reales: del estudio de la riqueza, con Adam Smith, a su reparto en precios, salarios y rentas, con David Ricardo; de ahí al desarrollo y la geografía económica, con Johann Heinrich von Thünen, y a los ciclos, con Ludwig von Mises y Friedrich Hayek. Cada libro se lee por separado; en este orden, siguen ese mismo recorrido.
+La economía es un «todo» que se divide en grandes áreas. Pero los hilos que las unen son reales: del estudio de la riqueza, con Adam Smith, a su reparto en precios, salarios y rentas, con David Ricardo; de ahí al desarrollo y la geografía económica, con Johann Heinrich von Thünen, y a los ciclos, con Ludwig von Mises y Friedrich Hayek. Cada libro se lee por separado; en este orden, siguen ese mismo recorrido.
 
 ## Portada · Cómo nace 7 Espigas (versión corta)
 
