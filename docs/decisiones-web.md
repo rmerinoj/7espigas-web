@@ -54,6 +54,8 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 
 - **Textos:** los aprobados viven en `docs/textos-web.md` (8 nov). «Cómo nace 7 Espigas» tendrá versión corta en portada y larga en página propia.
 
+- **Enlaces de Amazon (8 nov):** se guarda el ASIN de cada libro en `data/libros.json`; el enlace se construye como `amazon.<tienda>/dp/<ASIN>`. Tienda principal según idioma y zona horaria del navegador (sin cookies ni IP), con enlaces a las demás debajo. Antes de publicar, comprobar en qué tiendas está disponible cada libro.
+
 ## Bocetos
 
 - 7 nov: primeras direcciones A (colección) y B (novedad destacada). Descartado el enfoque personalista de ambas; pendiente rehacerlas con el sello en primer plano.
