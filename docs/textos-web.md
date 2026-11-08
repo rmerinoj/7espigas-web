@@ -11,7 +11,7 @@ Textos aprobados (o en revisión, marcado) para 7espigas.com. Fuente única: la 
 
 ## Portada · los libros
 
-La economía es un todo que, por convención, se divide en grandes áreas de conocimiento. Existen hilos que conectan unas con otras: del estudio de la riqueza de Adam Smith a la distribución de renta y riqueza (precios y salarios), al desarrollo y la geografía económica o los ciclos económicos.
+La economía es un todo que, por operatividad, se divide en grandes áreas de conocimiento. La interconexión entre ellas es real: del estudio de la riqueza de Adam Smith a la distribución de renta y riqueza (precios y salarios), al desarrollo y la geografía económica o los ciclos económicos.
 
 ## Portada · Cómo nace 7 Espigas (versión corta)
 
