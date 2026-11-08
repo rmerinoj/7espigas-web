@@ -17,7 +17,7 @@ Si quieres que te aconsejemos un orden de lectura, este mantiene una coherencia 
 
 En el Génesis, el faraón de Egipto soñó con siete espigas llenas que brotaban de una misma caña y otras siete, secas y quemadas por el viento, que las devoraban. Nadie supo descifrarlo, salvo José, un esclavo extranjero olvidado en una cárcel: vendrían siete años de abundancia y, después, siete de hambre. En plena abundancia, José propuso guardar parte de cada cosecha. Cuando llegó la escasez, Egipto tuvo grano para los suyos y para sus vecinos.
 
-7 Espigas nace con una colección de economía y crecerá a su alrededor con nuevos libros y otros formatos, siempre sobre la misma cuestión: entender los fenómenos económicos con los que vivimos, cómo cambian con el tiempo y qué riesgos y oportunidades traen. Para aprender, sí, pero también para actuar con conocimiento.
+7 Espigas nace con una colección de economía y crecerá a su alrededor con nuevos libros y otros formatos, siempre con una cuestión en mente: entender los fenómenos económicos con los que vivimos, cómo cambian con el tiempo y qué riesgos y oportunidades traen. Para aprender, sí, pero también para actuar con conocimiento.
 
 Enlace: Leer la historia completa →
 
@@ -34,8 +34,8 @@ Es una historia de hace miles de años que sigue siendo una lección de economí
 ## Boletín
 
 - Etiqueta: Boletín
-- Titular: Transformaciones económicas en tiempo real
-- Texto: Encontrarás análisis de lo que está ocurriendo y, aún más importante, de lo que está por venir: sus riesgos y sus oportunidades. También capítulos de libros, píldoras y novedades de 7 Espigas.
+- Titular: Abordando las transformaciones económicas en tiempo real
+- Texto: Encontrarás análisis de lo que está ocurriendo y, más importante, de lo que está por venir, con riesgos y oportunidades. También: capítulos de libros, píldoras y todas nuestras novedades.
 - Nota bajo el formulario: Sin publicidad. Puedes darte de baja cuando quieras.
 
 ## El autor
@@ -56,7 +56,7 @@ Sin fórmulas y con ejemplos cotidianos, un libro para entender por qué las cos
 
 En cumplimiento de la Ley 34/2002, de servicios de la sociedad de la información y de comercio electrónico (LSSI), se informa de los datos del titular de este sitio web:
 
-Titular: Raquel Merino [SEGUNDO APELLIDO]. NIF: [NIF]. Domicilio: [DOMICILIO]. Correo electrónico: hola@7espigas.com.
+Titular: Raquel Merino. NIF: 46937516J. Domicilio: Valdemorillo (Madrid), España. Correo electrónico: hola@7espigas.com.
 
 7espigas.com presenta los libros de la colección «Economía para todos» y otros contenidos de divulgación económica. Los libros se venden a través de Amazon; las compras se rigen por las condiciones de Amazon, no por las de esta web.
 
