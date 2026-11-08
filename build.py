@@ -8,6 +8,7 @@ import html
 import json
 import math
 import re
+import hashlib
 import shutil
 from pathlib import Path
 
@@ -54,6 +55,11 @@ def enlace(nombre):
         if l.startswith("Enlace:"):
             return l[len("Enlace:"):].strip()
     return ""
+
+
+def version(ruta):
+    """Huella corta del archivo, para que el navegador no use una copia antigua del CSS o del JS."""
+    return hashlib.sha1((RAIZ / "src" / ruta).read_bytes()).hexdigest()[:8]
 
 
 def esc(t):
@@ -126,7 +132,7 @@ def pagina(titulo, descripcion, cuerpo, ruta):
 <link rel="canonical" href="{DOMINIO}{ruta}">
 <link rel="icon" href="/marca/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="/fonts/archivo-narrow-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/estilo.css">
+<link rel="stylesheet" href="/estilo.css?v={version("estilo.css")}">
 <meta property="og:title" content="{esc(t)}">
 <meta property="og:description" content="{esc(descripcion)}">
 <meta property="og:locale" content="es_ES">
@@ -145,7 +151,7 @@ def pagina(titulo, descripcion, cuerpo, ruta):
 <img src="/marca/7espigas-firma-web-sobre-oscuro.svg" alt="7espigas.com" width="104" height="26">
 <nav aria-label="Legal"><a href="/aviso-legal/">Aviso legal</a><a href="/privacidad/">Privacidad</a><a href="/cookies/">Cookies</a></nav>
 </div></footer>
-<script src="/web.js" defer></script>
+<script src="/web.js?v={version("web.js")}" defer></script>
 </body>
 </html>
 '''

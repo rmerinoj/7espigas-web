@@ -89,6 +89,8 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 - **Subrayados:** no se trata de eliminarlos todos, sino de no abusar; de momento, la solución sin subrayado (salvo al pasar el ratón) se da por buena.
 - **Ilustración de «Cómo nace 7 Espigas»:** dibujo plano, en la línea de la gallina de La riqueza: una espiga llena (el grano del símbolo, ampliado) y otra mustia, doblada por el viento, con granos caídos. Va en la página interior, tras el primer párrafo; en la portada no hace falta. Archivo: `src/img/sueno-espigas.svg`.
 
+- **Caché del navegador:** el CSS y el JS se enlazan con una huella de su contenido (`estilo.css?v=…`), para que, tras cada cambio, nadie vea la página nueva con el estilo antiguo.
+
 ## Bocetos
 
 - 7 nov: primeras direcciones A (colección) y B (novedad destacada). Descartado el enfoque personalista de ambas; pendiente rehacerlas con el sello en primer plano.
