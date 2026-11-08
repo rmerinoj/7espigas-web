@@ -87,9 +87,12 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 
 - **Botón de compra con la tienda a la vista:** «Comprar en Amazon.es» (o .com, .co.uk… según el visitante), para que se distinga de «Comprar en otros países».
 - **Subrayados:** no se trata de eliminarlos todos, sino de no abusar; de momento, la solución sin subrayado (salvo al pasar el ratón) se da por buena.
-- **Ilustración de «Cómo nace 7 Espigas»:** dibujo plano, en la línea de la gallina de La riqueza: una espiga llena (el grano del símbolo, ampliado) y otra mustia, doblada por el viento, con granos caídos. Va en la página interior, tras el primer párrafo; en la portada no hace falta. Archivo: `src/img/sueno-espigas.svg`.
+- **Ilustración de «Cómo nace 7 Espigas»:** dibujo plano, en la línea de la gallina de La riqueza: una espiga llena (el grano del símbolo, ampliado) y otra mustia, doblada por el viento, con granos caídos. Va en la página interior; en la portada no hace falta. Archivos: `src/img/sueno-espigas-vertical.svg` (la que se usa) y `sueno-espigas.svg` (apaisada, de reserva).
 
 - **Caché del navegador:** el CSS y el JS se enlazan con una huella de su contenido (`estilo.css?v=…`), para que, tras cada cambio, nadie vea la página nueva con el estilo antiguo.
+
+- **Rejilla única para las páginas interiores (8 nov):** todas usan la de la ficha de libro: columna estrecha a la izquierda (360 px) y texto a la derecha, siempre en la misma posición y con el mismo ancho de lectura (unos 680 px, 70–80 caracteres por línea). A la izquierda va la imagen si la hay (cubierta, ilustración, foto del autor cuando exista); si no, la etiqueta y el título. Así el texto empieza siempre en el mismo sitio y no queda media página vacía. En móvil, una sola columna. Vale también para las páginas nuevas.
+- **Pie de página** siempre al fondo de la ventana, aunque la página sea corta.
 
 ## Bocetos
 

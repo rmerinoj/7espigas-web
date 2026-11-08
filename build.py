@@ -221,13 +221,18 @@ def pagina_libro(l):
     return pagina(l["titulo"], f'{l["titulo"]}. {l["subtitulo"]}. Colección Economía para todos.', cuerpo, f'/libros/{l["id"]}/')
 
 
-def pagina_texto(titulo, etiqueta, parrs, ruta, descripcion, ilustracion=""):
-    bloques = [f"<p>{esc(p)}</p>" for p in parrs]
-    if ilustracion:  # tras el primer párrafo
-        bloques.insert(1, ilustracion)
-    cuerpo = f'''<section><div class="envoltorio"><div class="texto">
-<span class="pildora">{esc(etiqueta)}</span><h1>{esc(titulo)}</h1>
-{"".join(bloques)}
+def pagina_texto(titulo, etiqueta, parrs, ruta, descripcion, imagen=""):
+    """Páginas interiores con la misma rejilla que la ficha de un libro: columna estrecha a la izquierda
+    (la imagen, si la hay; si no, la etiqueta y el título) y el texto siempre en la columna derecha."""
+    cabeza = f'<span class="pildora">{esc(etiqueta)}</span><h1>{esc(titulo)}</h1>'
+    texto = "".join(f"<p>{esc(p)}</p>" for p in parrs)
+    if imagen:
+        izquierda, derecha = imagen, cabeza + texto
+    else:
+        izquierda, derecha = f'<div class="titulo-lateral">{cabeza}</div>', texto
+    cuerpo = f'''<section><div class="envoltorio"><div class="ficha interior">
+<div class="lateral">{izquierda}</div>
+<div class="texto">{derecha}</div>
 </div></div></section>'''
     return pagina(titulo, descripcion, cuerpo, ruta)
 
@@ -246,7 +251,7 @@ def main():
     for l in libros:
         escribir(f"/libros/{l['id']}/", pagina_libro(l))
     escribir("/como-nace/", pagina_texto("Cómo nace 7 Espigas", "7 Espigas", parrafos("Página interior · Cómo nace 7 Espigas (versión larga)"), "/como-nace/", "El sueño del faraón, las siete espigas y la idea de la que nace 7 Espigas.",
-        '<figure class="ilustracion"><img src="/img/sueno-espigas.svg" width="1200" height="520" alt="Una espiga llena y dorada junto a otra seca y doblada por el viento, con granos caídos a sus pies."></figure>'))
+        '<figure class="ilustracion"><img src="/img/sueno-espigas-vertical.svg" width="540" height="700" alt="Una espiga llena y dorada junto a otra seca y doblada por el viento, con granos caídos a sus pies."></figure>'))
     escribir("/autor/", pagina_texto("José Ignacio del Castillo", "El autor", parrafos("El autor"), "/autor/", "José Ignacio del Castillo, autor de la colección Economía para todos."))
     escribir("/aviso-legal/", pagina_texto("Aviso legal", "Legal", parrafos("Aviso legal"), "/aviso-legal/", "Aviso legal de 7espigas.com."))
     escribir("/privacidad/", pagina_texto("Privacidad", "Legal", parrafos("Privacidad"), "/privacidad/", "Política de privacidad de 7espigas.com."))
