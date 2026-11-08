@@ -6,7 +6,7 @@ Textos aprobados (o en revisión, marcado) para 7espigas.com. Fuente única: la 
 
 - Antetítulo: Economía para todos
 - Titular: ¿Qué hay detrás de lo que vivimos cada día?
-- Entradilla: Esta colección forma un círculo que responde al qué, al cómo, al dónde y al cuándo de los fenómenos económicos. Se trata de contribuir a reconocerlos a tiempo, protegernos de sus amenazas y aprovechar sus oportunidades.
+- Entradilla: Esta colección de libros forma un círculo que responde al qué, al cómo, al dónde y al cuándo de los fenómenos económicos. Se trata de contribuir a reconocerlos a tiempo, protegernos de sus amenazas y aprovechar sus oportunidades.
 - Botón: Ver los cuatro libros
 
 ## Portada · los libros
