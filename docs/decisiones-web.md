@@ -94,6 +94,8 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 - **Rejilla única para las páginas interiores (8 nov):** todas usan la de la ficha de libro: columna estrecha a la izquierda (360 px) y texto a la derecha, siempre en la misma posición y con el mismo ancho de lectura (unos 680 px, 70–80 caracteres por línea). A la izquierda va la imagen si la hay (cubierta, ilustración, foto del autor cuando exista); si no, la etiqueta y el título. Así el texto empieza siempre en el mismo sitio y no queda media página vacía. En móvil, una sola columna. Vale también para las páginas nuevas.
 - **Pie de página** siempre al fondo de la ventana, aunque la página sea corta. Fondo «oro tinte» (#EEE6D4, el de las tarjetas), firma para fondo claro y enlaces en gris: había exceso de azul noche, sobre todo al final de la portada (boletín y pie seguidos). El azul queda en la cabecera, la portada y el boletín.
 
+- **Cabecera fija que se aparta (8 nov):** en ordenador, la cabecera se oculta al bajar y reaparece en cuanto se sube un poco (y siempre arriba del todo, o si se llega a ella con el teclado). No se usa la reaparición al pasar el ratón: no funciona en pantallas táctiles, nadie sabe que está ahí y salta sin querer al ir a las pestañas del navegador. Sin flecha de «volver arriba» por ahora: las páginas son cortas; se reconsidera si llegan páginas largas (artículos del boletín, por ejemplo).
+
 ## Bocetos
 
 - 7 nov: primeras direcciones A (colección) y B (novedad destacada). Descartado el enfoque personalista de ambas; pendiente rehacerlas con el sello en primer plano.

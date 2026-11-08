@@ -47,3 +47,17 @@
     });
   });
 })();
+/* Cabecera fija (solo ordenador): se oculta al bajar y reaparece en cuanto se sube un poco. */
+(function(){
+  var cab=document.querySelector(".cabecera"); if(!cab) return;
+  var ultima=window.pageYOffset, pendiente=false;
+  function revisar(){
+    var y=window.pageYOffset;
+    if(y<120||y<ultima-6) cab.classList.remove("oculta");
+    else if(y>ultima+6) cab.classList.add("oculta");
+    if(Math.abs(y-ultima)>6) ultima=y;
+    pendiente=false;
+  }
+  window.addEventListener("scroll",function(){if(!pendiente){pendiente=true;window.requestAnimationFrame(revisar);}},{passive:true});
+  cab.addEventListener("focusin",function(){cab.classList.remove("oculta");});
+})();
