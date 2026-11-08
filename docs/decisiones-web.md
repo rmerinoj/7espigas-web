@@ -72,6 +72,8 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 
 - **Boletín conectado a Kit (8 nov):** formulario «Web 7espigas.com» (n.º 10161891), con confirmación por correo; dominio 7espigas.com autenticado en Kit; remitente «7 Espigas» <hola@7espigas.com>. Al confirmar, Kit redirige de momento a su página por defecto; cambiar a 7espigas.com/gracias/ al publicar.
 
+- **Publicación (8 nov):** GitHub Pages con origen «GitHub Actions» y dominio 7espigas.com. DNS en DonDominio: eliminado el ANAME de la raíz (alojamiento de DonDominio); cuatro registros A a GitHub (185.199.108.153, .109.153, .110.153, .111.153); `www` como CNAME a `rmerinoj.github.io`; TXT `_github-pages-challenge-rmerinoj` para verificar el dominio. Los registros del correo y de Kit no se tocan.
+
 ## Bocetos
 
 - 7 nov: primeras direcciones A (colección) y B (novedad destacada). Descartado el enfoque personalista de ambas; pendiente rehacerlas con el sello en primer plano.
