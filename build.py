@@ -90,7 +90,7 @@ def circulo():
 
 
 def compra(l, ver=True):
-    v = f'<a class="ver" href="/libros/{l["id"]}/">Ver el libro</a>' if ver else ""
+    v = f'<a class="ver" href="/libros/{l["id"]}/">Más detalles</a>' if ver else ""
     return (f'<div class="compra" data-asin="{l["asin"]}"><div class="acciones">'
             f'<a class="boton noche comprar" href="{l["amazon_es"]}" rel="noopener">Comprar en Amazon</a>{v}</div>'
             f'<p class="otras"></p></div>')
