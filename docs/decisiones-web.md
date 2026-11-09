@@ -98,7 +98,7 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 
 - **Barra de desplazamiento:** se reserva siempre su hueco (`scrollbar-gutter: stable`), para que las páginas cortas, que no la tienen, no se desplacen unos píxeles a la derecha respecto de las largas.
 
-- **Dominios secundarios (9 nov):** 7espigas.es, sieteespigas.com y sieteespigas.es redirigen a https://7espigas.com con la redirección web de DonDominio (301 permanente, con y sin www, página de parking desactivada). Funciona con http://; pendiente comprobar https://. Si con https da aviso de certificado, alternativa: un repositorio mínimo de GitHub Pages por dominio que reenvíe a 7espigas.com (GitHub les da certificado).
+- **Dominios secundarios (9 nov):** 7espigas.es, sieteespigas.com y sieteespigas.es reenvían a https://7espigas.com, conservando la ruta, mediante un repositorio mínimo de GitHub Pages por dominio (`rmerinoj/7espigas-es`, `rmerinoj/sieteespigas-com`, `rmerinoj/sieteespigas-es`). DNS en DonDominio igual que el principal (cuatro A de GitHub y `www` CNAME a rmerinoj.github.io; borrados el ANAME y el `*` de parking). Se descartó la redirección de DonDominio: no admite https (conexión rechazada) y Chrome tardaba mucho en caer a http.
 
 ## Bocetos
 
