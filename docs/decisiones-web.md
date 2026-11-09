@@ -98,6 +98,8 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 
 - **Barra de desplazamiento:** se reserva siempre su hueco (`scrollbar-gutter: stable`), para que las páginas cortas, que no la tienen, no se desplacen unos píxeles a la derecha respecto de las largas.
 
+- **Dominios secundarios (9 nov):** 7espigas.es, sieteespigas.com y sieteespigas.es redirigen a https://7espigas.com con la redirección web de DonDominio (301 permanente, con y sin www, página de parking desactivada). Funciona con http://; pendiente comprobar https://. Si con https da aviso de certificado, alternativa: un repositorio mínimo de GitHub Pages por dominio que reenvíe a 7espigas.com (GitHub les da certificado).
+
 ## Bocetos
 
 - 7 nov: primeras direcciones A (colección) y B (novedad destacada). Descartado el enfoque personalista de ambas; pendiente rehacerlas con el sello en primer plano.
