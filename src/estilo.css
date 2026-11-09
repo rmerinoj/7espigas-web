@@ -115,3 +115,4 @@ section{padding:88px 0}
 .compra .detalles{margin:14px 0 0}
 body{min-height:100vh;display:flex;flex-direction:column}main{flex:1}
 html{scrollbar-gutter:stable}
+.firma-pie p{margin:6px 0 0 34px;font:400 12px/16px Inter,system-ui,sans-serif;color:var(--gris)}

@@ -153,7 +153,7 @@ def pagina(titulo, descripcion, cuerpo, ruta):
 {cuerpo}
 </main>
 <footer class="pie"><div class="envoltorio">
-<img src="/marca/7espigas-firma-web-sobre-claro.svg" alt="7espigas.com" width="104" height="26">
+<div class="firma-pie"><img src="/marca/7espigas-firma-web-sobre-claro.svg" alt="7espigas.com" width="104" height="26"><p>También en sieteespigas.com</p></div>
 <nav aria-label="Legal"><a href="/aviso-legal/">Aviso legal</a><a href="/privacidad/">Privacidad</a><a href="/cookies/">Cookies</a></nav>
 </div></footer>
 <script src="/web.js?v={version("web.js")}" defer></script>

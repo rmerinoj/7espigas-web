@@ -100,6 +100,8 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 
 - **Dominios secundarios (9 nov):** 7espigas.es, sieteespigas.com y sieteespigas.es reenvían a https://7espigas.com, conservando la ruta, mediante un repositorio mínimo de GitHub Pages por dominio (`rmerinoj/7espigas-es`, `rmerinoj/sieteespigas-com`, `rmerinoj/sieteespigas-es`). DNS en DonDominio igual que el principal (cuatro A de GitHub y `www` CNAME a rmerinoj.github.io; borrados el ANAME y el `*` de parking). Se descartó la redirección de DonDominio: no admite https (conexión rechazada) y Chrome tardaba mucho en caer a http.
 
+- **«sieteespigas.com» en el pie (9 nov):** bajo la firma, en texto pequeño y gris: «También en sieteespigas.com». No como segundo logotipo: la marca se escribe con «7» y el logo va una sola vez; la línea solo aclara que la dirección dicha en voz alta también funciona.
+
 ## Bocetos
 
 - 7 nov: primeras direcciones A (colección) y B (novedad destacada). Descartado el enfoque personalista de ambas; pendiente rehacerlas con el sello en primer plano.
