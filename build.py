@@ -105,7 +105,7 @@ def circulo():
 def compra(l, ver=True, paises=False):
     """Botón de compra; en la portada, debajo, «Comprar en otros países» y después «Más detalles»."""
     if paises:
-        otros = '<details class="paises" id="paises" hidden><summary>Comprar en otros países</summary><ul></ul></details>'
+        otros = '<details class="paises" hidden><summary>Comprar en otros países</summary><ul></ul></details>'
     elif ver:
         otros = f'<p class="otras"><a href="/libros/{l["id"]}/#paises">Comprar en otros países</a></p>'
     else:
