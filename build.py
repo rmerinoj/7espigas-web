@@ -189,11 +189,11 @@ def inicio():
 <div class="libros">{"".join(tarjeta(l) for l in libros)}</div>
 </div></section>
 <section style="padding-top:0"><div class="envoltorio"><div class="bloque oro aparece">
-<div><span class="pildora">7 Espigas</span><h2>Cómo nace 7 Espigas</h2></div>
+<div><span class="pildora">7 Espigas</span><h2><a href="/como-nace/">Cómo nace 7 Espigas</a></h2></div>
 <div>{"".join(f"<p>{esc(p)}</p>" for p in corta)}<a class="enlace" href="/como-nace/">Leer la historia completa →</a></div>
 </div></div></section>
 <section style="padding-top:0"><div class="envoltorio"><div class="bloque linea aparece">
-<div><span class="pildora neutra">El autor</span><h2>José Ignacio del Castillo</h2></div>
+<div><span class="pildora neutra">El autor</span><h2><a href="/autor/">José Ignacio del Castillo</a></h2></div>
 <div>{"".join(f"<p>{esc(p)}</p>" for p in parrafos("Portada · El autor (bloque breve)"))}<a class="enlace" href="/autor/">{esc(enlace("Portada · El autor (bloque breve)"))}</a></div>
 </div></div></section>
 {bloque_boletin()}'''
