@@ -118,7 +118,7 @@ def compra(l, ver=True, paises=False):
 
 def tarjeta(l):
     return f'''<article class="tarjeta aparece">
-<a href="/libros/{l["id"]}/" tabindex="-1" aria-hidden="true"><picture><source srcset="/img/{l["id"]}.webp" type="image/webp"><img class="cubierta" src="/img/{l["id"]}.jpg" width="600" height="900" alt="" loading="lazy"></picture></a>
+<a href="/libros/{l["id"]}/" tabindex="-1" aria-hidden="true"><picture><source srcset="/img/{l["id"]}.webp?v={version("img/"+l["id"]+".webp")}" type="image/webp"><img class="cubierta" src="/img/{l["id"]}.jpg?v={version("img/"+l["id"]+".jpg")}" width="600" height="900" alt="" loading="lazy"></picture></a>
 <div><div class="etiquetas"><span class="pildora">{l["orden"]} · {esc(l["pregunta"])}</span><span class="pildora neutra">Libro</span></div>
 <h3><a href="/libros/{l["id"]}/">{esc(l["titulo"])}</a></h3>
 <p class="subtitulo">{esc(l["subtitulo"])}</p>
@@ -208,7 +208,7 @@ def pagina_libro(l):
     cuerpo = f'''<section><div class="envoltorio">
 <p class="miga"><a href="/">Inicio</a> · <a href="/#libros">Libros</a></p>
 <div class="ficha" style="margin-top:28px">
-<picture><source srcset="/img/{l["id"]}.webp" type="image/webp"><img class="cubierta" src="/img/{l["id"]}.jpg" width="600" height="900" alt="Cubierta de {esc(l["titulo"])}"></picture>
+<picture><source srcset="/img/{l["id"]}.webp?v={version("img/"+l["id"]+".webp")}" type="image/webp"><img class="cubierta" src="/img/{l["id"]}.jpg?v={version("img/"+l["id"]+".jpg")}" width="600" height="900" alt="Cubierta de {esc(l["titulo"])}"></picture>
 <div><div class="etiquetas" style="display:flex;gap:6px"><span class="pildora">{l["orden"]} · {esc(l["pregunta"])}</span><span class="pildora neutra">Libro</span></div>
 <h1>{esc(l["titulo"])}</h1>
 <p class="subtitulo">{esc(l["subtitulo"])}</p>
