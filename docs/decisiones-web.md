@@ -105,7 +105,7 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 - **Bloques de portada en móvil (14 nov):** el título de los bloques («Cómo nace 7 Espigas», el autor, el boletín) baja a 30 px por debajo de 720 px de ancho y a 27 px por debajo de 400 px, para que «Transformaciones» quepa sin comerse el margen derecho. Las columnas no pueden ensancharse por una palabra larga (`minmax(0,1fr)`). Los títulos no se parten con guion.
 - **Formulario del boletín en móvil (14 nov):** por debajo de 520 px, el campo del correo y el botón «Suscribirme» van uno encima del otro, los dos a todo el ancho.
 - **Títulos de bloque enlazables (14 nov):** «Cómo nace 7 Espigas» lleva a /como-nace/ y «José Ignacio del Castillo» a /autor/. Mismo aspecto que antes; subrayado solo al pasar el ratón. Se mantienen también los enlaces de texto de debajo. «Los libros» y «Boletín» no se enlazan (no tienen página propia).
-- **Alineación vertical de los bloques (14 nov):** la columna izquierda (etiqueta y título) va arriba, alineada con el comienzo del texto, como en «Cómo nace 7 Espigas». Excepción: el boletín, que sigue centrado verticalmente; se valora con una comparación (pendiente de decidir).
+- **Alineación vertical de los bloques (14 nov):** la columna izquierda (etiqueta y título) va arriba, alineada con el comienzo del texto, como en «Cómo nace 7 Espigas». Excepción decidida: el boletín sigue centrado verticalmente, porque no es texto que continúa sino una llamada a la acción, y el formulario centrado se lee como el remate del bloque.
 
 ## Bocetos
 
