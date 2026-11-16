@@ -16,7 +16,7 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 
 ## 8 de noviembre de 2026
 
-- **Colección:** «Economía para todos» (aprobado por José Ignacio). Falta la frase que la acompaña.
+- **Colección:** «Economía para todos» (aprobado por José Ignacio); sustituido el 16 nov por «Economía al grano» (ver abajo).
 - **Boletín:** contenido abierto a propósito: algún análisis cada quince días aproximadamente, capítulos, píldoras y novedades. El texto debe transmitir que es algo vivo frente al libro. Falta el nombre o gancho.
 - **Enlaces:** cada ficha de libro de la portada lleva a la página del libro; el autor enlaza a su página desde las fichas de sus libros.
 - **Infografía del orden de lectura** en la sección de libros, sin dar a entender que haya que seguirlo.
@@ -30,7 +30,7 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 
 - **El lema «Todos lo viven, pocos lo entienden» queda aparcado** como lema propio: resulta pretencioso atribuírnoslo. Solo se usará como cita de Goethe, cuando venga a cuento.
 - **Foco de la web: la colección y los libros**, que ya existen y queremos vender. Nada de prometer contenidos o comunidad que todavía no hay; 7 Espigas se presenta como un espacio que irá creciendo alrededor de la temática, con pequeños monográficos cuando los haya.
-- **Colección:** «Economía para todos», con la pregunta «¿Qué hay detrás de lo que vivimos cada día?».
+- **Colección:** «Economía al grano» (desde el 16 nov; antes «Economía para todos»), con la pregunta «¿Qué hay detrás de lo que vivimos cada día?».
 - **Boletín:** «Transformaciones económicas en tiempo real».
 - **Fichas de libro:** con enlace directo «Comprar en Amazon» en cada una, además de «Ver el libro».
 
@@ -41,14 +41,14 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 - ~~Colores por libro (estaciones)~~: descartado; ver boceto E.
 - **El círculo:** sobre fondo azul relleno, con trazo grueso; etiquetas qué, cómo, dónde y cuándo en cruz (0°, 90°, 180°, 270°). Dos variantes en estudio: cuatro arcos de color o aro dorado cerrado, como el de los lomos.
 - **Fichas de libro:** en horizontal (cuatro en fila), con fondo de su color; no en lista vertical.
-- **Textos fijados por Raquel:** antetítulo «Economía para todos»; entradilla «Cada libro es una unidad que puede leerse por separado; juntos forman un círculo económico que responde al qué, al cómo, al dónde y al cuándo»; presentación de los libros sobre el orden de lectura; texto del boletín.
+- **Textos fijados por Raquel:** antetítulo «Economía para todos» (desde el 16 nov, «Economía al grano»); entradilla «Cada libro es una unidad que puede leerse por separado; juntos forman un círculo económico que responde al qué, al cómo, al dónde y al cuándo»; presentación de los libros sobre el orden de lectura; texto del boletín.
 - **Sección del nombre:** «Cómo nace 7 Espigas» (no «Por qué este nombre»).
 - **Animaciones:** solo fundidos suaves al entrar los bloques y un leve movimiento de las cubiertas; nada si el usuario pide reducir movimiento.
 
 ## 8 de noviembre de 2026 (boceto E): color por colección
 
 - **Sustituye** a las «áreas con color» del 7 nov y a los colores por libro del boceto D.
-- **Tres capas:** marca (azul noche, crema, tinta, dorado) en toda la estructura; una familia de color por colección («Economía para todos»: dorado); temas y formatos, etiquetas neutras.
+- **Tres capas:** marca (azul noche, crema, tinta, dorado) en toda la estructura; una familia de color por colección («Economía al grano»: dorado); temas y formatos, etiquetas neutras.
 - **En la web:** círculo de cuatro arcos dorados sobre disco azul, con los títulos de los libros; tarjetas de libro con el mismo tinte dorado y píldora de cuadrante + etiqueta neutra «Libro»; boletín en azul noche con etiqueta neutra.
 - **Las estaciones**, solo dentro de Las cuatro estaciones del dinero.
 
@@ -107,6 +107,8 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 - **Formulario del boletín en móvil (14 nov):** por debajo de 520 px, el campo del correo y el botón «Suscribirme» van uno encima del otro, los dos a todo el ancho.
 - **Títulos de bloque enlazables (14 nov):** «Cómo nace 7 Espigas» lleva a /como-nace/ y «José Ignacio del Castillo» a /autor/. Mismo aspecto que antes; subrayado solo al pasar el ratón. Se mantienen también los enlaces de texto de debajo. «Los libros» y «Boletín» no se enlazan (no tienen página propia).
 - **Alineación vertical de los bloques (14 nov):** la columna izquierda (etiqueta y título) va arriba, alineada con el comienzo del texto, como en «Cómo nace 7 Espigas». Excepción decidida: el boletín sigue centrado verticalmente, porque no es texto que continúa sino una llamada a la acción, y el formulario centrado se lee como el remate del bloque.
+
+- **Nombre de la colección (16 nov):** «Economía al grano», en lugar de «Economía para todos». Doble sentido: ir al grano (lo esencial, sin rodeos) y el grano separado de la paja, en línea con las espigas del sello. Buscado el 16 nov: ningún libro, colección ni editorial con ese nombre. Cambiado en la web: antetítulo de la portada, círculo de la colección, título de la portada en el navegador y descripciones de las páginas de los libros y del autor. Queda por cambiar fuera de la web: serie de KDP, fichas de Amazon y documentos del Drive.
 
 ## Bocetos
 

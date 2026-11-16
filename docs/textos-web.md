@@ -4,7 +4,7 @@ Textos aprobados (o en revisión, marcado) para 7espigas.com. Fuente única: la 
 
 ## Portada · cabecera
 
-- Antetítulo: Economía para todos
+- Antetítulo: Economía al grano
 - Titular: ¿Qué hay detrás de lo que vivimos cada día?
 - Entradilla: Esta colección de libros forma un círculo que responde al qué, al cómo, al dónde y al cuándo de los fenómenos económicos. Se trata de contribuir a reconocerlos a tiempo, protegernos de sus amenazas y aprovechar sus oportunidades.
 - Botón: Ver los cuatro libros
@@ -90,7 +90,7 @@ En cumplimiento de la Ley 34/2002, de servicios de la sociedad de la informació
 
 Titular: Raquel Merino. NIF: 46937516J. Domicilio: Valdemorillo (Madrid), España. Correo electrónico: hola@7espigas.com.
 
-7espigas.com presenta los libros de la colección «Economía para todos» y otros contenidos de divulgación económica. Los libros se venden a través de Amazon; las compras se rigen por las condiciones de Amazon, no por las de esta web.
+7espigas.com presenta los libros de la colección «Economía al grano» y otros contenidos de divulgación económica. Los libros se venden a través de Amazon; las compras se rigen por las condiciones de Amazon, no por las de esta web.
 
 Los textos, imágenes, cubiertas, logotipos y demás contenidos de esta web pertenecen a sus autores y a 7 Espigas, salvo que se indique otra cosa. No se pueden reproducir sin permiso, salvo en citas breves que indiquen la fuente.
 

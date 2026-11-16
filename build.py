@@ -86,7 +86,7 @@ def circulo():
         a1 = math.radians(-90 + i * 90 + 45 - 8)
         s.append(f'<path d="M{c + R * math.cos(a0):.1f},{c + R * math.sin(a0):.1f} A{R},{R} 0 0 1 {c + R * math.cos(a1):.1f},{c + R * math.sin(a1):.1f}" fill="none" stroke="{oro}" stroke-width="{sw}" stroke-linecap="round"/>')
     s.append(f'<text x="{c}" y="{c - 6}" text-anchor="middle" font-family="Archivo Narrow, Arial Narrow, sans-serif" font-weight="700" font-size="28" fill="#F6F1E7">Economía</text>')
-    s.append(f'<text x="{c}" y="{c + 25}" text-anchor="middle" font-family="Archivo Narrow, Arial Narrow, sans-serif" font-weight="700" font-size="28" fill="#F6F1E7">para todos</text>')
+    s.append(f'<text x="{c}" y="{c + 25}" text-anchor="middle" font-family="Archivo Narrow, Arial Narrow, sans-serif" font-weight="700" font-size="28" fill="#F6F1E7">al grano</text>')
     pos = [(c, c - R), (c + R, c), (c, c + R), (c - R, c)]
     tit = [(c, c - R - 80, "middle", ["La riqueza"]), (c + R + 72, c - 8, "start", ["Matar al", "mensajero"]),
            (c, c + R + 92, "middle", ["El coste de la distancia"]), (c - R - 72, c - 16, "end", ["Las cuatro", "estaciones", "del dinero"])]
@@ -126,7 +126,7 @@ def tarjeta(l):
 
 
 def pagina(titulo, descripcion, cuerpo, ruta):
-    t = f"{titulo} · 7 Espigas" if titulo != "7 Espigas" else "7 Espigas · Economía para todos"
+    t = f"{titulo} · 7 Espigas" if titulo != "7 Espigas" else "7 Espigas · Economía al grano"
     return f'''<!doctype html>
 <html lang="es">
 <head>
@@ -218,7 +218,7 @@ def pagina_libro(l):
 <h2 style="font-size:28px;margin:40px 0 12px">Los otros libros de la colección</h2>
 <ul style="padding-left:20px;margin:0">{otros}</ul>
 </div></div></div></section>'''
-    return pagina(l["titulo"], f'{l["titulo"]}. {l["subtitulo"]}. Colección Economía para todos.', cuerpo, f'/libros/{l["id"]}/')
+    return pagina(l["titulo"], f'{l["titulo"]}. {l["subtitulo"]}. Colección Economía al grano.', cuerpo, f'/libros/{l["id"]}/')
 
 
 def pagina_texto(titulo, etiqueta, parrs, ruta, descripcion, imagen=""):
@@ -252,7 +252,7 @@ def main():
         escribir(f"/libros/{l['id']}/", pagina_libro(l))
     escribir("/como-nace/", pagina_texto("Cómo nace 7 Espigas", "7 Espigas", parrafos("Página interior · Cómo nace 7 Espigas (versión larga)"), "/como-nace/", "El sueño del faraón, las siete espigas y la idea de la que nace 7 Espigas.",
         '<figure class="ilustracion"><img src="/img/sueno-espigas-vertical.svg" width="540" height="700" alt="Una espiga llena y dorada junto a otra seca y doblada por el viento, con granos caídos a sus pies."></figure>'))
-    escribir("/autor/", pagina_texto("José Ignacio del Castillo", "El autor", parrafos("El autor"), "/autor/", "José Ignacio del Castillo, autor de la colección Economía para todos."))
+    escribir("/autor/", pagina_texto("José Ignacio del Castillo", "El autor", parrafos("El autor"), "/autor/", "José Ignacio del Castillo, autor de la colección Economía al grano."))
     escribir("/aviso-legal/", pagina_texto("Aviso legal", "Legal", parrafos("Aviso legal"), "/aviso-legal/", "Aviso legal de 7espigas.com."))
     escribir("/privacidad/", pagina_texto("Privacidad", "Legal", parrafos("Privacidad"), "/privacidad/", "Política de privacidad de 7espigas.com."))
     escribir("/cookies/", pagina_texto("Cookies", "Legal", parrafos("Cookies"), "/cookies/", "Política de cookies de 7espigas.com."))
