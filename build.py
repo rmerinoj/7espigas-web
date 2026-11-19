@@ -135,7 +135,10 @@ def pagina(titulo, descripcion, cuerpo, ruta):
 <title>{esc(t)}</title>
 <meta name="description" content="{esc(descripcion)}">
 <link rel="canonical" href="{DOMINIO}{ruta}">
-<link rel="icon" href="/marca/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/marca/favicon.svg?v={version("marca/favicon.svg")}" type="image/svg+xml">
+<link rel="icon" href="/marca/favicon-32.png?v={version("marca/favicon-32.png")}" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="/marca/apple-touch-icon.png?v={version("marca/apple-touch-icon.png")}">
+<link rel="manifest" href="/site.webmanifest">
 <link rel="preload" href="/fonts/archivo-narrow-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/estilo.css?v={version("estilo.css")}">
 <meta property="og:title" content="{esc(t)}">
