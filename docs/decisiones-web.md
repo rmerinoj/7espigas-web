@@ -110,6 +110,8 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 
 - **Nombre de la colección (16 nov):** «Economía al grano», en lugar de «Economía para todos». Doble sentido: ir al grano (lo esencial, sin rodeos) y el grano separado de la paja, en línea con las espigas del sello. Buscado el 16 nov: ningún libro, colección ni editorial con ese nombre. Cambiado en la web: antetítulo de la portada, círculo de la colección, título de la portada en el navegador y descripciones de las páginas de los libros y del autor. Queda por cambiar fuera de la web: serie de KDP, fichas de Amazon y documentos del Drive.
 
+- **Fondo de la web (19 nov):** el fondo general pasa del crema (#F6F1E7) al crema claro (#F9F6EF), un tono nuevo de la paleta: el mismo crema, medio paso más cerca del blanco. El crema se veía demasiado fuerte como fondo de casi todas las páginas. El crema de siempre se mantiene para el texto claro sobre azul, el campo del boletín y todo lo impreso (cubiertas e interiores). Decisión «de momento», revisable si 7 Espigas crece más allá de lo editorial. Anotado también en el sistema de diseño del Drive.
+
 ## Bocetos
 
 - 7 nov: primeras direcciones A (colección) y B (novedad destacada). Descartado el enfoque personalista de ambas; pendiente rehacerlas con el sello en primer plano.
