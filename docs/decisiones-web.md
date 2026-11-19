@@ -114,6 +114,7 @@ Registro de decisiones adoptadas sobre 7espigas.com. Las generales del proyecto 
 
 - **Favicon (19 nov):** el anterior (aro y espiga dibujados con trazo fino, sin fondo) no se distinguía en las pestañas. Pasa a ser macizo: disco azul noche con la espiga dorada dentro, entera (en el logotipo la espiga sobresale del aro a propósito; en el favicon no, para que se lea a 16 px). Tallo algo más grueso que en el símbolo. Además, icono cuadrado azul con la espiga para la pantalla de inicio del móvil (apple-touch-icon, 192 y 512 px) y manifiesto web. El símbolo de la marca no cambia.
 - **Favicon, segunda vuelta (19 nov):** el disco con la espiga seguía sin leerse bien a 16 px. Se cambia por un «7» dorado (Archivo Narrow, negrita) sobre disco azul noche; en el móvil, el mismo «7» sobre cuadrado azul noche. La espiga se queda para el logotipo y el símbolo, que no cambian.
+- **Firma del pie (19 nov):** se veía apelotonada. Pasa de 26 a 34 px de alto (un tercio más), con más aire hasta «También en sieteespigas.com», que se alinea con el texto de la firma y no con la espiga. No se agranda más para no competir con el logo de la cabecera, cuyo tamaño está pendiente de revisar.
 
 ## Bocetos
 
